@@ -1,0 +1,3194 @@
+[
+  {
+    "Id": 1,
+    "BrandId": "Ecru",
+    "BrandName": "DMC",
+    "Colour": "#FFF7E7",
+    "Description": "Ecru/Off-white"
+  },
+  {
+    "Id": 2,
+    "BrandId": "Blanc",
+    "BrandName": "DMC",
+    "Colour": "#EEEEEE",
+    "Description": "White"
+  },
+  {
+    "Id": 3,
+    "BrandId": "B5200",
+    "BrandName": "DMC",
+    "Colour": "#FCFCFF",
+    "Description": "Snow White"
+  },
+  {
+    "Id": 4,
+    "BrandId": "White",
+    "BrandName": "DMC",
+    "Colour": "#FFFFFF",
+    "Description": "White"
+  },
+  {
+    "Id": 5,
+    "BrandId": "150",
+    "BrandName": "DMC",
+    "Colour": "#CF0053",
+    "Description": "Red - Bright"
+  },
+  {
+    "Id": 6,
+    "BrandId": "151",
+    "BrandName": "DMC",
+    "Colour": "#FFCBD7",
+    "Description": "Pink"
+  },
+  {
+    "Id": 7,
+    "BrandId": "152",
+    "BrandName": "DMC",
+    "Colour": "#E1A1A1",
+    "Description": "Tawny - Dark"
+  },
+  {
+    "Id": 8,
+    "BrandId": "153",
+    "BrandName": "DMC",
+    "Colour": "#EAC5EB",
+    "Description": "Lilac"
+  },
+  {
+    "Id": 9,
+    "BrandId": "154",
+    "BrandName": "DMC",
+    "Colour": "#4B233A",
+    "Description": "Red - Very Dark"
+  },
+  {
+    "Id": 10,
+    "BrandId": "155",
+    "BrandName": "DMC",
+    "Colour": "#9774B6",
+    "Description": "Forget-me-not Blue"
+  },
+  {
+    "Id": 11,
+    "BrandId": "156",
+    "BrandName": "DMC",
+    "Colour": "#8577B4",
+    "Description": "Blue - Medium"
+  },
+  {
+    "Id": 12,
+    "BrandId": "157",
+    "BrandName": "DMC",
+    "Colour": "#B5B8EA",
+    "Description": "Blue - Light"
+  },
+  {
+    "Id": 13,
+    "BrandId": "158",
+    "BrandName": "DMC",
+    "Colour": "#393068",
+    "Description": "Blue - Dark"
+  },
+  {
+    "Id": 14,
+    "BrandId": "159",
+    "BrandName": "DMC",
+    "Colour": "#BCB5DE",
+    "Description": "Petrol Blue - Light"
+  },
+  {
+    "Id": 15,
+    "BrandId": "160",
+    "BrandName": "DMC",
+    "Colour": "#8178A9",
+    "Description": "Petrol Blue - Medium"
+  },
+  {
+    "Id": 16,
+    "BrandId": "161",
+    "BrandName": "DMC",
+    "Colour": "#60568B",
+    "Description": "Petrol Blue - Dark"
+  },
+  {
+    "Id": 17,
+    "BrandId": "162",
+    "BrandName": "DMC",
+    "Colour": "#CAE7F0",
+    "Description": "Baby Blue - Light"
+  },
+  {
+    "Id": 18,
+    "BrandId": "163",
+    "BrandName": "DMC",
+    "Colour": "#557A60",
+    "Description": "Green"
+  },
+  {
+    "Id": 19,
+    "BrandId": "164",
+    "BrandName": "DMC",
+    "Colour": "#BAE4B6",
+    "Description": "Green - Light"
+  },
+  {
+    "Id": 20,
+    "BrandId": "165",
+    "BrandName": "DMC",
+    "Colour": "#E1F477",
+    "Description": "Green - Bright"
+  },
+  {
+    "Id": 21,
+    "BrandId": "166",
+    "BrandName": "DMC",
+    "Colour": "#ADC238",
+    "Description": "Lime Green"
+  },
+  {
+    "Id": 22,
+    "BrandId": "167",
+    "BrandName": "DMC",
+    "Colour": "#855D31",
+    "Description": "Khaki Brown"
+  },
+  {
+    "Id": 23,
+    "BrandId": "168",
+    "BrandName": "DMC",
+    "Colour": "#B1AEB7",
+    "Description": "Silver Gray"
+  },
+  {
+    "Id": 24,
+    "BrandId": "169",
+    "BrandName": "DMC",
+    "Colour": "#827D7D",
+    "Description": "Pewter Gray"
+  },
+  {
+    "Id": 25,
+    "BrandId": "208",
+    "BrandName": "DMC",
+    "Colour": "#9442A7",
+    "Description": "Lavender - Very Dark"
+  },
+  {
+    "Id": 26,
+    "BrandId": "209",
+    "BrandName": "DMC",
+    "Colour": "#BA72C6",
+    "Description": "Lavender - Dark"
+  },
+  {
+    "Id": 27,
+    "BrandId": "210",
+    "BrandName": "DMC",
+    "Colour": "#D49FE1",
+    "Description": "Lavender - Medium"
+  },
+  {
+    "Id": 28,
+    "BrandId": "211",
+    "BrandName": "DMC",
+    "Colour": "#E5BDED",
+    "Description": "Lavender - Light"
+  },
+  {
+    "Id": 29,
+    "BrandId": "221",
+    "BrandName": "DMC",
+    "Colour": "#792631",
+    "Description": "Shell Pink - Very Dark"
+  },
+  {
+    "Id": 30,
+    "BrandId": "223",
+    "BrandName": "DMC",
+    "Colour": "#BB6864",
+    "Description": "Shell Pink - Light"
+  },
+  {
+    "Id": 31,
+    "BrandId": "224",
+    "BrandName": "DMC",
+    "Colour": "#E2A598",
+    "Description": "Shell Pink - Very Light"
+  },
+  {
+    "Id": 32,
+    "BrandId": "225",
+    "BrandName": "DMC",
+    "Colour": "#F8D9CD",
+    "Description": "Shell Pink - Ultra Light"
+  },
+  {
+    "Id": 33,
+    "BrandId": "300",
+    "BrandName": "DMC",
+    "Colour": "#6C3116",
+    "Description": "Mahogany - Very Dark"
+  },
+  {
+    "Id": 34,
+    "BrandId": "301",
+    "BrandName": "DMC",
+    "Colour": "#AA5237",
+    "Description": "Mahogany - Medium"
+  },
+  {
+    "Id": 35,
+    "BrandId": "304",
+    "BrandName": "DMC",
+    "Colour": "#A10C39",
+    "Description": "Red - Medium"
+  },
+  {
+    "Id": 36,
+    "BrandId": "307",
+    "BrandName": "DMC",
+    "Colour": "#FDE949",
+    "Description": "Lemon"
+  },
+  {
+    "Id": 37,
+    "BrandId": "309",
+    "BrandName": "DMC",
+    "Colour": "#BA2044",
+    "Description": "Rose - Dark"
+  },
+  {
+    "Id": 38,
+    "BrandId": "310",
+    "BrandName": "DMC",
+    "Colour": "#000000",
+    "Description": "Black"
+  },
+  {
+    "Id": 39,
+    "BrandId": "311",
+    "BrandName": "DMC",
+    "Colour": "#002A64",
+    "Description": "Blue - Medium"
+  },
+  {
+    "Id": 40,
+    "BrandId": "312",
+    "BrandName": "DMC",
+    "Colour": "#1F3279",
+    "Description": "Baby Blue - Very Dark"
+  },
+  {
+    "Id": 41,
+    "BrandId": "315",
+    "BrandName": "DMC",
+    "Colour": "#7D4246",
+    "Description": "Antique Mauve - Medium Dark"
+  },
+  {
+    "Id": 42,
+    "BrandId": "316",
+    "BrandName": "DMC",
+    "Colour": "#BC757F",
+    "Description": "Antique Mauve - Medium"
+  },
+  {
+    "Id": 43,
+    "BrandId": "317",
+    "BrandName": "DMC",
+    "Colour": "#6D6469",
+    "Description": "Pewter Gray"
+  },
+  {
+    "Id": 44,
+    "BrandId": "318",
+    "BrandName": "DMC",
+    "Colour": "#999B9D",
+    "Description": "Steel Gray - Light"
+  },
+  {
+    "Id": 45,
+    "BrandId": "319",
+    "BrandName": "DMC",
+    "Colour": "#3A553B",
+    "Description": "Pistachio Green - Very Dark"
+  },
+  {
+    "Id": 46,
+    "BrandId": "320",
+    "BrandName": "DMC",
+    "Colour": "#608C59",
+    "Description": "Pistachio Green - Medium"
+  },
+  {
+    "Id": 47,
+    "BrandId": "321",
+    "BrandName": "DMC",
+    "Colour": "#BD1136",
+    "Description": "Red"
+  },
+  {
+    "Id": 48,
+    "BrandId": "322",
+    "BrandName": "DMC",
+    "Colour": "#3A609D",
+    "Description": "Baby Blue"
+  },
+  {
+    "Id": 49,
+    "BrandId": "326",
+    "BrandName": "DMC",
+    "Colour": "#AC1C37",
+    "Description": "Rose - Very Dark"
+  },
+  {
+    "Id": 50,
+    "BrandId": "327",
+    "BrandName": "DMC",
+    "Colour": "#5E0F77",
+    "Description": "Violet"
+  },
+  {
+    "Id": 51,
+    "BrandId": "333",
+    "BrandName": "DMC",
+    "Colour": "#6E2E9B",
+    "Description": "Blue Violet - Very Dark"
+  },
+  {
+    "Id": 52,
+    "BrandId": "334",
+    "BrandName": "DMC",
+    "Colour": "#6085B8",
+    "Description": "Baby Blue - Medium"
+  },
+  {
+    "Id": 53,
+    "BrandId": "335",
+    "BrandName": "DMC",
+    "Colour": "#D63D57",
+    "Description": "Rose"
+  },
+  {
+    "Id": 54,
+    "BrandId": "336",
+    "BrandName": "DMC",
+    "Colour": "#0C275E",
+    "Description": "Blue"
+  },
+  {
+    "Id": 55,
+    "BrandId": "340",
+    "BrandName": "DMC",
+    "Colour": "#996DC3",
+    "Description": "Blue Violet - Medium"
+  },
+  {
+    "Id": 56,
+    "BrandId": "341",
+    "BrandName": "DMC",
+    "Colour": "#A39AD7",
+    "Description": "Blue Violet - Light"
+  },
+  {
+    "Id": 57,
+    "BrandId": "347",
+    "BrandName": "DMC",
+    "Colour": "#AB1B33",
+    "Description": "Salmon - Very Dark"
+  },
+  {
+    "Id": 58,
+    "BrandId": "349",
+    "BrandName": "DMC",
+    "Colour": "#C62C38",
+    "Description": "Coral - Dark"
+  },
+  {
+    "Id": 59,
+    "BrandId": "350",
+    "BrandName": "DMC",
+    "Colour": "#DE3F40",
+    "Description": "Coral - Medium"
+  },
+  {
+    "Id": 60,
+    "BrandId": "351",
+    "BrandName": "DMC",
+    "Colour": "#ED625B",
+    "Description": "Coral"
+  },
+  {
+    "Id": 61,
+    "BrandId": "352",
+    "BrandName": "DMC",
+    "Colour": "#F78372",
+    "Description": "Coral - Light"
+  },
+  {
+    "Id": 62,
+    "BrandId": "353",
+    "BrandName": "DMC",
+    "Colour": "#FDB4A1",
+    "Description": "Peach"
+  },
+  {
+    "Id": 63,
+    "BrandId": "355",
+    "BrandName": "DMC",
+    "Colour": "#97382B",
+    "Description": "Terra Cotta - Dark"
+  },
+  {
+    "Id": 64,
+    "BrandId": "356",
+    "BrandName": "DMC",
+    "Colour": "#BE5C4B",
+    "Description": "Terra Cotta - Medium"
+  },
+  {
+    "Id": 65,
+    "BrandId": "367",
+    "BrandName": "DMC",
+    "Colour": "#446B45",
+    "Description": "Pistachio Green - Dark"
+  },
+  {
+    "Id": 66,
+    "BrandId": "368",
+    "BrandName": "DMC",
+    "Colour": "#7FC66D",
+    "Description": "Pistachio Green - Light"
+  },
+  {
+    "Id": 67,
+    "BrandId": "369",
+    "BrandName": "DMC",
+    "Colour": "#CDEFA6",
+    "Description": "Pistachio Green - Very Light"
+  },
+  {
+    "Id": 68,
+    "BrandId": "370",
+    "BrandName": "DMC",
+    "Colour": "#917245",
+    "Description": "Mustard - Medium"
+  },
+  {
+    "Id": 69,
+    "BrandId": "371",
+    "BrandName": "DMC",
+    "Colour": "#9F8352",
+    "Description": "Mustard"
+  },
+  {
+    "Id": 70,
+    "BrandId": "372",
+    "BrandName": "DMC",
+    "Colour": "#AD9564",
+    "Description": "Mustard - Light"
+  },
+  {
+    "Id": 71,
+    "BrandId": "400",
+    "BrandName": "DMC",
+    "Colour": "#813718",
+    "Description": "Mahogany - Dark"
+  },
+  {
+    "Id": 72,
+    "BrandId": "402",
+    "BrandName": "DMC",
+    "Colour": "#EF9E74",
+    "Description": "Mahogany - Very Light"
+  },
+  {
+    "Id": 73,
+    "BrandId": "407",
+    "BrandName": "DMC",
+    "Colour": "#B77159",
+    "Description": "Desert Sand - Dark"
+  },
+  {
+    "Id": 74,
+    "BrandId": "413",
+    "BrandName": "DMC",
+    "Colour": "#4A4749",
+    "Description": "Pewter Gray - Dark"
+  },
+  {
+    "Id": 75,
+    "BrandId": "414",
+    "BrandName": "DMC",
+    "Colour": "#766E72",
+    "Description": "Steel Gray - Dark"
+  },
+  {
+    "Id": 76,
+    "BrandId": "415",
+    "BrandName": "DMC",
+    "Colour": "#B8B9BD",
+    "Description": "Pearl Gray"
+  },
+  {
+    "Id": 77,
+    "BrandId": "420",
+    "BrandName": "DMC",
+    "Colour": "#855A30",
+    "Description": "Hazelnut Brown - Dark"
+  },
+  {
+    "Id": 78,
+    "BrandId": "422",
+    "BrandName": "DMC",
+    "Colour": "#C99A67",
+    "Description": "Hazelnut Brown - Light"
+  },
+  {
+    "Id": 79,
+    "BrandId": "433",
+    "BrandName": "DMC",
+    "Colour": "#73421E",
+    "Description": "Brown - Medium"
+  },
+  {
+    "Id": 80,
+    "BrandId": "434",
+    "BrandName": "DMC",
+    "Colour": "#8F5332",
+    "Description": "Brown - Light"
+  },
+  {
+    "Id": 81,
+    "BrandId": "435",
+    "BrandName": "DMC",
+    "Colour": "#A96538",
+    "Description": "Brown - Very Light"
+  },
+  {
+    "Id": 82,
+    "BrandId": "436",
+    "BrandName": "DMC",
+    "Colour": "#C78559",
+    "Description": "Tan"
+  },
+  {
+    "Id": 83,
+    "BrandId": "437",
+    "BrandName": "DMC",
+    "Colour": "#DAA26F",
+    "Description": "Tan - Light"
+  },
+  {
+    "Id": 84,
+    "BrandId": "444",
+    "BrandName": "DMC",
+    "Colour": "#F5BC13",
+    "Description": "Lemon - Dark"
+  },
+  {
+    "Id": 85,
+    "BrandId": "445",
+    "BrandName": "DMC",
+    "Colour": "#FCF999",
+    "Description": "Lemon - Light"
+  },
+  {
+    "Id": 86,
+    "BrandId": "451",
+    "BrandName": "DMC",
+    "Colour": "#887773",
+    "Description": "Shell Gray - Dark"
+  },
+  {
+    "Id": 87,
+    "BrandId": "452",
+    "BrandName": "DMC",
+    "Colour": "#AD9994",
+    "Description": "Shell Gray - Medium"
+  },
+  {
+    "Id": 88,
+    "BrandId": "453",
+    "BrandName": "DMC",
+    "Colour": "#CCB8AA",
+    "Description": "Shell Gray - Light"
+  },
+  {
+    "Id": 89,
+    "BrandId": "469",
+    "BrandName": "DMC",
+    "Colour": "#5B6533",
+    "Description": "Avocado Green"
+  },
+  {
+    "Id": 90,
+    "BrandId": "470",
+    "BrandName": "DMC",
+    "Colour": "#72813E",
+    "Description": "Avocado Green - Light"
+  },
+  {
+    "Id": 91,
+    "BrandId": "471",
+    "BrandName": "DMC",
+    "Colour": "#9EB357",
+    "Description": "Avocado Green - Very Light"
+  },
+  {
+    "Id": 92,
+    "BrandId": "472",
+    "BrandName": "DMC",
+    "Colour": "#D1DE75",
+    "Description": "Avocado Green - Ultra Light"
+  },
+  {
+    "Id": 93,
+    "BrandId": "498",
+    "BrandName": "DMC",
+    "Colour": "#970B2C",
+    "Description": "Red - Dark"
+  },
+  {
+    "Id": 94,
+    "BrandId": "500",
+    "BrandName": "DMC",
+    "Colour": "#1D362A",
+    "Description": "Blue Green - Very Dark"
+  },
+  {
+    "Id": 95,
+    "BrandId": "501",
+    "BrandName": "DMC",
+    "Colour": "#2F5446",
+    "Description": "Blue Green - Dark"
+  },
+  {
+    "Id": 96,
+    "BrandId": "502",
+    "BrandName": "DMC",
+    "Colour": "#57826E",
+    "Description": "Blue Green"
+  },
+  {
+    "Id": 97,
+    "BrandId": "503",
+    "BrandName": "DMC",
+    "Colour": "#89B89F",
+    "Description": "Blue Green - Medium"
+  },
+  {
+    "Id": 98,
+    "BrandId": "504",
+    "BrandName": "DMC",
+    "Colour": "#ACDAC1",
+    "Description": "Blue Green - Very Light"
+  },
+  {
+    "Id": 99,
+    "BrandId": "505",
+    "BrandName": "DMC",
+    "Colour": "#CEDDC1",
+    "Description": "Grass Green - Dark"
+  },
+  {
+    "Id": 100,
+    "BrandId": "517",
+    "BrandName": "DMC",
+    "Colour": "#216285",
+    "Description": "Wedgewood - Dark"
+  },
+  {
+    "Id": 101,
+    "BrandId": "518",
+    "BrandName": "DMC",
+    "Colour": "#50819C",
+    "Description": "Wedgewood - Light"
+  },
+  {
+    "Id": 102,
+    "BrandId": "519",
+    "BrandName": "DMC",
+    "Colour": "#94B7CB",
+    "Description": "Sky Blue"
+  },
+  {
+    "Id": 103,
+    "BrandId": "520",
+    "BrandName": "DMC",
+    "Colour": "#384526",
+    "Description": "Fern Green - Dark"
+  },
+  {
+    "Id": 104,
+    "BrandId": "522",
+    "BrandName": "DMC",
+    "Colour": "#808B6E",
+    "Description": "Fern Green"
+  },
+  {
+    "Id": 105,
+    "BrandId": "523",
+    "BrandName": "DMC",
+    "Colour": "#959F7A",
+    "Description": "Fern Green - Light"
+  },
+  {
+    "Id": 106,
+    "BrandId": "524",
+    "BrandName": "DMC",
+    "Colour": "#AEA78E",
+    "Description": "Fern Green - Very Light"
+  },
+  {
+    "Id": 107,
+    "BrandId": "535",
+    "BrandName": "DMC",
+    "Colour": "#4B4B49",
+    "Description": "Ash Gray - Very Light"
+  },
+  {
+    "Id": 108,
+    "BrandId": "543",
+    "BrandName": "DMC",
+    "Colour": "#EAD0B5",
+    "Description": "Beige Brown - Ultra Light"
+  },
+  {
+    "Id": 109,
+    "BrandId": "550",
+    "BrandName": "DMC",
+    "Colour": "#580E5C",
+    "Description": "Violet - Very Dark"
+  },
+  {
+    "Id": 110,
+    "BrandId": "552",
+    "BrandName": "DMC",
+    "Colour": "#902F99",
+    "Description": "Violet - Medium"
+  },
+  {
+    "Id": 111,
+    "BrandId": "553",
+    "BrandName": "DMC",
+    "Colour": "#A449AC",
+    "Description": "Violet"
+  },
+  {
+    "Id": 112,
+    "BrandId": "554",
+    "BrandName": "DMC",
+    "Colour": "#DC9CDE",
+    "Description": "Violet - Light"
+  },
+  {
+    "Id": 113,
+    "BrandId": "561",
+    "BrandName": "DMC",
+    "Colour": "#285E48",
+    "Description": "Jade - Very Dark"
+  },
+  {
+    "Id": 114,
+    "BrandId": "562",
+    "BrandName": "DMC",
+    "Colour": "#3B8C5A",
+    "Description": "Jade - Medium"
+  },
+  {
+    "Id": 115,
+    "BrandId": "563",
+    "BrandName": "DMC",
+    "Colour": "#6ED39A",
+    "Description": "Jade - Light"
+  },
+  {
+    "Id": 116,
+    "BrandId": "564",
+    "BrandName": "DMC",
+    "Colour": "#95E4AF",
+    "Description": "Jade - Very Light"
+  },
+  {
+    "Id": 117,
+    "BrandId": "580",
+    "BrandName": "DMC",
+    "Colour": "#355F0B",
+    "Description": "Moss Green - Dark"
+  },
+  {
+    "Id": 118,
+    "BrandId": "581",
+    "BrandName": "DMC",
+    "Colour": "#838A29",
+    "Description": "Moss Green"
+  },
+  {
+    "Id": 119,
+    "BrandId": "597",
+    "BrandName": "DMC",
+    "Colour": "#52ADAB",
+    "Description": "Turquoise"
+  },
+  {
+    "Id": 120,
+    "BrandId": "598",
+    "BrandName": "DMC",
+    "Colour": "#97D8D3",
+    "Description": "Turquoise - Light"
+  },
+  {
+    "Id": 121,
+    "BrandId": "600",
+    "BrandName": "DMC",
+    "Colour": "#BF1C48",
+    "Description": "Cranberry - Very Dark"
+  },
+  {
+    "Id": 122,
+    "BrandId": "601",
+    "BrandName": "DMC",
+    "Colour": "#C62A53",
+    "Description": "Cranberry - Dark"
+  },
+  {
+    "Id": 123,
+    "BrandId": "602",
+    "BrandName": "DMC",
+    "Colour": "#D63F68",
+    "Description": "Cranberry - Medium"
+  },
+  {
+    "Id": 124,
+    "BrandId": "603",
+    "BrandName": "DMC",
+    "Colour": "#ED5D84",
+    "Description": "Cranberry"
+  },
+  {
+    "Id": 125,
+    "BrandId": "604",
+    "BrandName": "DMC",
+    "Colour": "#F793B2",
+    "Description": "Cranberry - Light"
+  },
+  {
+    "Id": 126,
+    "BrandId": "605",
+    "BrandName": "DMC",
+    "Colour": "#FBACC4",
+    "Description": "Cranberry - Very Light"
+  },
+  {
+    "Id": 127,
+    "BrandId": "606",
+    "BrandName": "DMC",
+    "Colour": "#F70F00",
+    "Description": "Orange-red - Bright"
+  },
+  {
+    "Id": 128,
+    "BrandId": "608",
+    "BrandName": "DMC",
+    "Colour": "#FD480C",
+    "Description": "Orange - Bright"
+  },
+  {
+    "Id": 129,
+    "BrandId": "610",
+    "BrandName": "DMC",
+    "Colour": "#6B5039",
+    "Description": "Drab Brown - Dark"
+  },
+  {
+    "Id": 130,
+    "BrandId": "611",
+    "BrandName": "DMC",
+    "Colour": "#7C5F46",
+    "Description": "Drab Brown"
+  },
+  {
+    "Id": 131,
+    "BrandId": "612",
+    "BrandName": "DMC",
+    "Colour": "#A6885E",
+    "Description": "Drab Brown - Light"
+  },
+  {
+    "Id": 132,
+    "BrandId": "613",
+    "BrandName": "DMC",
+    "Colour": "#B99F72",
+    "Description": "Drab Brown - Very Light"
+  },
+  {
+    "Id": 133,
+    "BrandId": "632",
+    "BrandName": "DMC",
+    "Colour": "#7F4232",
+    "Description": "Desert Sand - Ultra Dark"
+  },
+  {
+    "Id": 134,
+    "BrandId": "640",
+    "BrandName": "DMC",
+    "Colour": "#817868",
+    "Description": "Beige Gray - Very Dark"
+  },
+  {
+    "Id": 135,
+    "BrandId": "642",
+    "BrandName": "DMC",
+    "Colour": "#958D79",
+    "Description": "Beige Gray - Dark"
+  },
+  {
+    "Id": 136,
+    "BrandId": "644",
+    "BrandName": "DMC",
+    "Colour": "#C4BEA6",
+    "Description": "Beige Gray - Medium"
+  },
+  {
+    "Id": 137,
+    "BrandId": "645",
+    "BrandName": "DMC",
+    "Colour": "#5D5D54",
+    "Description": "Beaver Gray - Very Dark"
+  },
+  {
+    "Id": 138,
+    "BrandId": "646",
+    "BrandName": "DMC",
+    "Colour": "#6B6860",
+    "Description": "Beaver Gray - Dark"
+  },
+  {
+    "Id": 139,
+    "BrandId": "647",
+    "BrandName": "DMC",
+    "Colour": "#908E85",
+    "Description": "Beaver Gray - Medium"
+  },
+  {
+    "Id": 140,
+    "BrandId": "648",
+    "BrandName": "DMC",
+    "Colour": "#A7A69F",
+    "Description": "Beaver Gray - Light"
+  },
+  {
+    "Id": 141,
+    "BrandId": "666",
+    "BrandName": "DMC",
+    "Colour": "#CE1B33",
+    "Description": "Red - Bright"
+  },
+  {
+    "Id": 142,
+    "BrandId": "676",
+    "BrandName": "DMC",
+    "Colour": "#ECBF7D",
+    "Description": "Old Gold - Light"
+  },
+  {
+    "Id": 143,
+    "BrandId": "677",
+    "BrandName": "DMC",
+    "Colour": "#F2DC9F",
+    "Description": "Old Gold - Very Light"
+  },
+  {
+    "Id": 144,
+    "BrandId": "680",
+    "BrandName": "DMC",
+    "Colour": "#B07B46",
+    "Description": "Old Gold - Dark"
+  },
+  {
+    "Id": 145,
+    "BrandId": "699",
+    "BrandName": "DMC",
+    "Colour": "#075B26",
+    "Description": "Green"
+  },
+  {
+    "Id": 146,
+    "BrandId": "700",
+    "BrandName": "DMC",
+    "Colour": "#076C34",
+    "Description": "Green - Bright"
+  },
+  {
+    "Id": 147,
+    "BrandId": "701",
+    "BrandName": "DMC",
+    "Colour": "#217C36",
+    "Description": "Green - Light"
+  },
+  {
+    "Id": 148,
+    "BrandId": "702",
+    "BrandName": "DMC",
+    "Colour": "#379130",
+    "Description": "Kelly Green"
+  },
+  {
+    "Id": 149,
+    "BrandId": "703",
+    "BrandName": "DMC",
+    "Colour": "#63B330",
+    "Description": "Chartreuse"
+  },
+  {
+    "Id": 150,
+    "BrandId": "704",
+    "BrandName": "DMC",
+    "Colour": "#88C53A",
+    "Description": "Chartreuse - Bright"
+  },
+  {
+    "Id": 151,
+    "BrandId": "712",
+    "BrandName": "DMC",
+    "Colour": "#F6EFDA",
+    "Description": "Cream"
+  },
+  {
+    "Id": 152,
+    "BrandId": "718",
+    "BrandName": "DMC",
+    "Colour": "#CB2089",
+    "Description": "Plum"
+  },
+  {
+    "Id": 153,
+    "BrandId": "720",
+    "BrandName": "DMC",
+    "Colour": "#C83A24",
+    "Description": "Orange Spice - Dark"
+  },
+  {
+    "Id": 154,
+    "BrandId": "721",
+    "BrandName": "DMC",
+    "Colour": "#F46440",
+    "Description": "Orange Spice - Medium"
+  },
+  {
+    "Id": 155,
+    "BrandId": "722",
+    "BrandName": "DMC",
+    "Colour": "#F98756",
+    "Description": "Orange Spice - Light"
+  },
+  {
+    "Id": 156,
+    "BrandId": "725",
+    "BrandName": "DMC",
+    "Colour": "#F9C15B",
+    "Description": "Topaz"
+  },
+  {
+    "Id": 157,
+    "BrandId": "726",
+    "BrandName": "DMC",
+    "Colour": "#FDDB63",
+    "Description": "Topaz - Light"
+  },
+  {
+    "Id": 158,
+    "BrandId": "727",
+    "BrandName": "DMC",
+    "Colour": "#FDE98B",
+    "Description": "Topaz - Very Light"
+  },
+  {
+    "Id": 159,
+    "BrandId": "728",
+    "BrandName": "DMC",
+    "Colour": "#F2AE3F",
+    "Description": "Golden Yellow"
+  },
+  {
+    "Id": 160,
+    "BrandId": "729",
+    "BrandName": "DMC",
+    "Colour": "#CE9657",
+    "Description": "Old Gold - Medium"
+  },
+  {
+    "Id": 161,
+    "BrandId": "730",
+    "BrandName": "DMC",
+    "Colour": "#63520B",
+    "Description": "Olive Green - Very Dark"
+  },
+  {
+    "Id": 162,
+    "BrandId": "731",
+    "BrandName": "DMC",
+    "Colour": "#6B580B",
+    "Description": "Olive Green - Dark"
+  },
+  {
+    "Id": 163,
+    "BrandId": "732",
+    "BrandName": "DMC",
+    "Colour": "#725C0C",
+    "Description": "Olive Green"
+  },
+  {
+    "Id": 164,
+    "BrandId": "733",
+    "BrandName": "DMC",
+    "Colour": "#A78A44",
+    "Description": "Olive Green - Medium"
+  },
+  {
+    "Id": 165,
+    "BrandId": "734",
+    "BrandName": "DMC",
+    "Colour": "#BB9C54",
+    "Description": "Olive Green - Light"
+  },
+  {
+    "Id": 166,
+    "BrandId": "738",
+    "BrandName": "DMC",
+    "Colour": "#E2B783",
+    "Description": "Tan - Very Light"
+  },
+  {
+    "Id": 167,
+    "BrandId": "739",
+    "BrandName": "DMC",
+    "Colour": "#F2DEB9",
+    "Description": "Tan - Ultra Light"
+  },
+  {
+    "Id": 168,
+    "BrandId": "740",
+    "BrandName": "DMC",
+    "Colour": "#FD6F1A",
+    "Description": "Tangerine"
+  },
+  {
+    "Id": 169,
+    "BrandId": "741",
+    "BrandName": "DMC",
+    "Colour": "#FC8B10",
+    "Description": "Tangerine - Medium"
+  },
+  {
+    "Id": 170,
+    "BrandId": "742",
+    "BrandName": "DMC",
+    "Colour": "#FDAE3C",
+    "Description": "Tangerine - Light"
+  },
+  {
+    "Id": 171,
+    "BrandId": "743",
+    "BrandName": "DMC",
+    "Colour": "#FDD769",
+    "Description": "Yellow - Medium"
+  },
+  {
+    "Id": 172,
+    "BrandId": "744",
+    "BrandName": "DMC",
+    "Colour": "#FEE88D",
+    "Description": "Yellow - Pale"
+  },
+  {
+    "Id": 173,
+    "BrandId": "745",
+    "BrandName": "DMC",
+    "Colour": "#FEEBA5",
+    "Description": "Yellow - Light Pale"
+  },
+  {
+    "Id": 174,
+    "BrandId": "746",
+    "BrandName": "DMC",
+    "Colour": "#FAF2D5",
+    "Description": "Off White"
+  },
+  {
+    "Id": 175,
+    "BrandId": "747",
+    "BrandName": "DMC",
+    "Colour": "#CEE9EA",
+    "Description": "Sky Blue - Very Light"
+  },
+  {
+    "Id": 176,
+    "BrandId": "754",
+    "BrandName": "DMC",
+    "Colour": "#F7C9B0",
+    "Description": "Peach - Light"
+  },
+  {
+    "Id": 177,
+    "BrandId": "758",
+    "BrandName": "DMC",
+    "Colour": "#E99F83",
+    "Description": "Terra Cotta - Very Light"
+  },
+  {
+    "Id": 178,
+    "BrandId": "760",
+    "BrandName": "DMC",
+    "Colour": "#EC8880",
+    "Description": "Salmon"
+  },
+  {
+    "Id": 179,
+    "BrandId": "761",
+    "BrandName": "DMC",
+    "Colour": "#F8B4AD",
+    "Description": "Salmon - Light"
+  },
+  {
+    "Id": 180,
+    "BrandId": "762",
+    "BrandName": "DMC",
+    "Colour": "#D1D0D2",
+    "Description": "Pearl Gray - Very Light"
+  },
+  {
+    "Id": 181,
+    "BrandId": "772",
+    "BrandName": "DMC",
+    "Colour": "#D7EFA7",
+    "Description": "Yellow Green - Very Light"
+  },
+  {
+    "Id": 182,
+    "BrandId": "775",
+    "BrandName": "DMC",
+    "Colour": "#D4E3EF",
+    "Description": "Baby Blue - Very Light"
+  },
+  {
+    "Id": 183,
+    "BrandId": "776",
+    "BrandName": "DMC",
+    "Colour": "#FCA8AD",
+    "Description": "Pink - Medium"
+  },
+  {
+    "Id": 184,
+    "BrandId": "777",
+    "BrandName": "DMC",
+    "Colour": "#9B0042",
+    "Description": "Red - Deep"
+  },
+  {
+    "Id": 185,
+    "BrandId": "778",
+    "BrandName": "DMC",
+    "Colour": "#DCA6A4",
+    "Description": "Antique Mauve - Very Light"
+  },
+  {
+    "Id": 186,
+    "BrandId": "779",
+    "BrandName": "DMC",
+    "Colour": "#53332D",
+    "Description": "Brown"
+  },
+  {
+    "Id": 187,
+    "BrandId": "780",
+    "BrandName": "DMC",
+    "Colour": "#945026",
+    "Description": "Topaz - Ultra Dark"
+  },
+  {
+    "Id": 188,
+    "BrandId": "781",
+    "BrandName": "DMC",
+    "Colour": "#A25F1F",
+    "Description": "Topaz - Very Dark"
+  },
+  {
+    "Id": 189,
+    "BrandId": "782",
+    "BrandName": "DMC",
+    "Colour": "#B26923",
+    "Description": "Topaz - Dark"
+  },
+  {
+    "Id": 190,
+    "BrandId": "783",
+    "BrandName": "DMC",
+    "Colour": "#D0883D",
+    "Description": "Topaz - Medium"
+  },
+  {
+    "Id": 191,
+    "BrandId": "791",
+    "BrandName": "DMC",
+    "Colour": "#2D2068",
+    "Description": "Cornflower Blue - Very Dark"
+  },
+  {
+    "Id": 192,
+    "BrandId": "792",
+    "BrandName": "DMC",
+    "Colour": "#454B8B",
+    "Description": "Cornflower Blue - Dark"
+  },
+  {
+    "Id": 193,
+    "BrandId": "793",
+    "BrandName": "DMC",
+    "Colour": "#7C82B5",
+    "Description": "Cornflower Blue - Medium"
+  },
+  {
+    "Id": 194,
+    "BrandId": "794",
+    "BrandName": "DMC",
+    "Colour": "#A0B2D7",
+    "Description": "Cornflower Blue - Light"
+  },
+  {
+    "Id": 195,
+    "BrandId": "796",
+    "BrandName": "DMC",
+    "Colour": "#272276",
+    "Description": "Royal Blue - Dark"
+  },
+  {
+    "Id": 196,
+    "BrandId": "797",
+    "BrandName": "DMC",
+    "Colour": "#2B3288",
+    "Description": "Royal Blue"
+  },
+  {
+    "Id": 197,
+    "BrandId": "798",
+    "BrandName": "DMC",
+    "Colour": "#4E5CA7",
+    "Description": "Delft Blue - Dark"
+  },
+  {
+    "Id": 198,
+    "BrandId": "799",
+    "BrandName": "DMC",
+    "Colour": "#6B7FC0",
+    "Description": "Delft Blue - Medium"
+  },
+  {
+    "Id": 199,
+    "BrandId": "800",
+    "BrandName": "DMC",
+    "Colour": "#B5C7E9",
+    "Description": "Delft Blue - Pale"
+  },
+  {
+    "Id": 200,
+    "BrandId": "801",
+    "BrandName": "DMC",
+    "Colour": "#60391D",
+    "Description": "Coffee Brown - Dark"
+  },
+  {
+    "Id": 201,
+    "BrandId": "803",
+    "BrandName": "DMC",
+    "Colour": "#202754",
+    "Description": "Blue - Deep"
+  },
+  {
+    "Id": 202,
+    "BrandId": "806",
+    "BrandName": "DMC",
+    "Colour": "#1D6C87",
+    "Description": "Peacock Blue - Dark"
+  },
+  {
+    "Id": 203,
+    "BrandId": "807",
+    "BrandName": "DMC",
+    "Colour": "#558B9E",
+    "Description": "Peacock Blue"
+  },
+  {
+    "Id": 204,
+    "BrandId": "809",
+    "BrandName": "DMC",
+    "Colour": "#919FD5",
+    "Description": "Delft Blue"
+  },
+  {
+    "Id": 205,
+    "BrandId": "813",
+    "BrandName": "DMC",
+    "Colour": "#7FA0C6",
+    "Description": "Blue - Light"
+  },
+  {
+    "Id": 206,
+    "BrandId": "814",
+    "BrandName": "DMC",
+    "Colour": "#711033",
+    "Description": "Garnet - Dark"
+  },
+  {
+    "Id": 207,
+    "BrandId": "815",
+    "BrandName": "DMC",
+    "Colour": "#800B34",
+    "Description": "Garnet - Medium"
+  },
+  {
+    "Id": 208,
+    "BrandId": "816",
+    "BrandName": "DMC",
+    "Colour": "#921238",
+    "Description": "Garnet"
+  },
+  {
+    "Id": 209,
+    "BrandId": "817",
+    "BrandName": "DMC",
+    "Colour": "#BB1630",
+    "Description": "Coral Red - Very Dark"
+  },
+  {
+    "Id": 210,
+    "BrandId": "818",
+    "BrandName": "DMC",
+    "Colour": "#FEDEDD",
+    "Description": "Baby Pink"
+  },
+  {
+    "Id": 211,
+    "BrandId": "819",
+    "BrandName": "DMC",
+    "Colour": "#FCEBDE",
+    "Description": "Baby Pink - Light"
+  },
+  {
+    "Id": 212,
+    "BrandId": "820",
+    "BrandName": "DMC",
+    "Colour": "#151264",
+    "Description": "Royal Blue - Very Dark"
+  },
+  {
+    "Id": 213,
+    "BrandId": "822",
+    "BrandName": "DMC",
+    "Colour": "#E8DFC7",
+    "Description": "Beige Gray - Light"
+  },
+  {
+    "Id": 214,
+    "BrandId": "823",
+    "BrandName": "DMC",
+    "Colour": "#000B44",
+    "Description": "Blue - Dark"
+  },
+  {
+    "Id": 215,
+    "BrandId": "824",
+    "BrandName": "DMC",
+    "Colour": "#284779",
+    "Description": "Blue - Very Dark"
+  },
+  {
+    "Id": 216,
+    "BrandId": "825",
+    "BrandName": "DMC",
+    "Colour": "#34588F",
+    "Description": "Blue - Dark"
+  },
+  {
+    "Id": 217,
+    "BrandId": "826",
+    "BrandName": "DMC",
+    "Colour": "#5075A7",
+    "Description": "Blue - Medium"
+  },
+  {
+    "Id": 218,
+    "BrandId": "827",
+    "BrandName": "DMC",
+    "Colour": "#A4C1DE",
+    "Description": "Blue - Very Light"
+  },
+  {
+    "Id": 219,
+    "BrandId": "828",
+    "BrandName": "DMC",
+    "Colour": "#C3D7E6",
+    "Description": "Blue - Ultra Light"
+  },
+  {
+    "Id": 220,
+    "BrandId": "829",
+    "BrandName": "DMC",
+    "Colour": "#64480C",
+    "Description": "Golden Olive - Very Dark"
+  },
+  {
+    "Id": 221,
+    "BrandId": "830",
+    "BrandName": "DMC",
+    "Colour": "#6E501D",
+    "Description": "Golden Olive - Dark"
+  },
+  {
+    "Id": 222,
+    "BrandId": "831",
+    "BrandName": "DMC",
+    "Colour": "#7C5F20",
+    "Description": "Golden Olive - Medium"
+  },
+  {
+    "Id": 223,
+    "BrandId": "832",
+    "BrandName": "DMC",
+    "Colour": "#9C7230",
+    "Description": "Golden Olive"
+  },
+  {
+    "Id": 224,
+    "BrandId": "833",
+    "BrandName": "DMC",
+    "Colour": "#B99956",
+    "Description": "Golden Olive - Light"
+  },
+  {
+    "Id": 225,
+    "BrandId": "834",
+    "BrandName": "DMC",
+    "Colour": "#D2B468",
+    "Description": "Golden Olive - Very Light"
+  },
+  {
+    "Id": 226,
+    "BrandId": "838",
+    "BrandName": "DMC",
+    "Colour": "#4A3021",
+    "Description": "Beige Brown - Very Dark"
+  },
+  {
+    "Id": 227,
+    "BrandId": "839",
+    "BrandName": "DMC",
+    "Colour": "#5A3C2D",
+    "Description": "Beige Brown - Dark"
+  },
+  {
+    "Id": 228,
+    "BrandId": "840",
+    "BrandName": "DMC",
+    "Colour": "#7A5939",
+    "Description": "Beige Brown - Medium"
+  },
+  {
+    "Id": 229,
+    "BrandId": "841",
+    "BrandName": "DMC",
+    "Colour": "#A37D64",
+    "Description": "Beige Brown - Light"
+  },
+  {
+    "Id": 230,
+    "BrandId": "842",
+    "BrandName": "DMC",
+    "Colour": "#CBB094",
+    "Description": "Beige Brown - Very Light"
+  },
+  {
+    "Id": 231,
+    "BrandId": "844",
+    "BrandName": "DMC",
+    "Colour": "#494842",
+    "Description": "Beaver Gray - Ultra Dark"
+  },
+  {
+    "Id": 232,
+    "BrandId": "868",
+    "BrandName": "DMC",
+    "Colour": "#995C30",
+    "Description": "Hazel Nut Brown"
+  },
+  {
+    "Id": 233,
+    "BrandId": "869",
+    "BrandName": "DMC",
+    "Colour": "#784C28",
+    "Description": "Hazelnut Brown - Very Dark"
+  },
+  {
+    "Id": 234,
+    "BrandId": "890",
+    "BrandName": "DMC",
+    "Colour": "#324233",
+    "Description": "Pistachio Green - Ultra Dark"
+  },
+  {
+    "Id": 235,
+    "BrandId": "891",
+    "BrandName": "DMC",
+    "Colour": "#EE3246",
+    "Description": "Carnation - Dark"
+  },
+  {
+    "Id": 236,
+    "BrandId": "892",
+    "BrandName": "DMC",
+    "Colour": "#F44753",
+    "Description": "Carnation - Medium"
+  },
+  {
+    "Id": 237,
+    "BrandId": "893",
+    "BrandName": "DMC",
+    "Colour": "#F66879",
+    "Description": "Carnation - Light"
+  },
+  {
+    "Id": 238,
+    "BrandId": "894",
+    "BrandName": "DMC",
+    "Colour": "#FD95A3",
+    "Description": "Carnation - Very Light"
+  },
+  {
+    "Id": 239,
+    "BrandId": "895",
+    "BrandName": "DMC",
+    "Colour": "#344B2E",
+    "Description": "Hunter Green - Very Dark"
+  },
+  {
+    "Id": 240,
+    "BrandId": "898",
+    "BrandName": "DMC",
+    "Colour": "#532F1B",
+    "Description": "Coffee Brown - Very Dark"
+  },
+  {
+    "Id": 241,
+    "BrandId": "899",
+    "BrandName": "DMC",
+    "Colour": "#EA6B78",
+    "Description": "Rose - Medium"
+  },
+  {
+    "Id": 242,
+    "BrandId": "900",
+    "BrandName": "DMC",
+    "Colour": "#C63117",
+    "Description": "Burnt Orange - Dark"
+  },
+  {
+    "Id": 243,
+    "BrandId": "902",
+    "BrandName": "DMC",
+    "Colour": "#651329",
+    "Description": "Garnet - Very Dark"
+  },
+  {
+    "Id": 244,
+    "BrandId": "904",
+    "BrandName": "DMC",
+    "Colour": "#386324",
+    "Description": "Parrot Green - Very Dark"
+  },
+  {
+    "Id": 245,
+    "BrandId": "905",
+    "BrandName": "DMC",
+    "Colour": "#467924",
+    "Description": "Parrot Green - Dark"
+  },
+  {
+    "Id": 246,
+    "BrandId": "906",
+    "BrandName": "DMC",
+    "Colour": "#6C9E29",
+    "Description": "Parrot Green - Medium"
+  },
+  {
+    "Id": 247,
+    "BrandId": "907",
+    "BrandName": "DMC",
+    "Colour": "#9DC72D",
+    "Description": "Parrot Green - Light"
+  },
+  {
+    "Id": 248,
+    "BrandId": "909",
+    "BrandName": "DMC",
+    "Colour": "#106B43",
+    "Description": "Emerald Green - Very Dark"
+  },
+  {
+    "Id": 249,
+    "BrandId": "910",
+    "BrandName": "DMC",
+    "Colour": "#10814E",
+    "Description": "Emerald Green - Dark"
+  },
+  {
+    "Id": 250,
+    "BrandId": "911",
+    "BrandName": "DMC",
+    "Colour": "#109256",
+    "Description": "Emerald Green - Medium"
+  },
+  {
+    "Id": 251,
+    "BrandId": "912",
+    "BrandName": "DMC",
+    "Colour": "#36B26B",
+    "Description": "Emerald Green - Light"
+  },
+  {
+    "Id": 252,
+    "BrandId": "913",
+    "BrandName": "DMC",
+    "Colour": "#55CA7D",
+    "Description": "Nile Green - Medium"
+  },
+  {
+    "Id": 253,
+    "BrandId": "915",
+    "BrandName": "DMC",
+    "Colour": "#95085A",
+    "Description": "Plum - Dark"
+  },
+  {
+    "Id": 254,
+    "BrandId": "917",
+    "BrandName": "DMC",
+    "Colour": "#AC1071",
+    "Description": "Plum - Medium"
+  },
+  {
+    "Id": 255,
+    "BrandId": "918",
+    "BrandName": "DMC",
+    "Colour": "#883630",
+    "Description": "Red Copper - Dark"
+  },
+  {
+    "Id": 256,
+    "BrandId": "919",
+    "BrandName": "DMC",
+    "Colour": "#9B371B",
+    "Description": "Red Copper"
+  },
+  {
+    "Id": 257,
+    "BrandId": "920",
+    "BrandName": "DMC",
+    "Colour": "#AB4836",
+    "Description": "Copper - Medium"
+  },
+  {
+    "Id": 258,
+    "BrandId": "921",
+    "BrandName": "DMC",
+    "Colour": "#C0573D",
+    "Description": "Copper"
+  },
+  {
+    "Id": 259,
+    "BrandId": "922",
+    "BrandName": "DMC",
+    "Colour": "#DD6E4C",
+    "Description": "Copper - Light"
+  },
+  {
+    "Id": 260,
+    "BrandId": "924",
+    "BrandName": "DMC",
+    "Colour": "#384A4A",
+    "Description": "Gray Green - Very Dark"
+  },
+  {
+    "Id": 261,
+    "BrandId": "926",
+    "BrandName": "DMC",
+    "Colour": "#617674",
+    "Description": "Gray Green - Medium"
+  },
+  {
+    "Id": 262,
+    "BrandId": "927",
+    "BrandName": "DMC",
+    "Colour": "#9FA8A5",
+    "Description": "Gray Green - Light"
+  },
+  {
+    "Id": 263,
+    "BrandId": "928",
+    "BrandName": "DMC",
+    "Colour": "#C0C6C0",
+    "Description": "Gray Green - Very Light"
+  },
+  {
+    "Id": 264,
+    "BrandId": "930",
+    "BrandName": "DMC",
+    "Colour": "#495C6B",
+    "Description": "Antique Blue - Dark"
+  },
+  {
+    "Id": 265,
+    "BrandId": "931",
+    "BrandName": "DMC",
+    "Colour": "#667684",
+    "Description": "Antique Blue - Medium"
+  },
+  {
+    "Id": 266,
+    "BrandId": "932",
+    "BrandName": "DMC",
+    "Colour": "#93A0AF",
+    "Description": "Antique Blue - Light"
+  },
+  {
+    "Id": 267,
+    "BrandId": "934",
+    "BrandName": "DMC",
+    "Colour": "#323324",
+    "Description": "Avocado Green - Black"
+  },
+  {
+    "Id": 268,
+    "BrandId": "935",
+    "BrandName": "DMC",
+    "Colour": "#383A2A",
+    "Description": "Avocado Green - Dark"
+  },
+  {
+    "Id": 269,
+    "BrandId": "936",
+    "BrandName": "DMC",
+    "Colour": "#3F4227",
+    "Description": "Avocado Green - Very Dark"
+  },
+  {
+    "Id": 270,
+    "BrandId": "937",
+    "BrandName": "DMC",
+    "Colour": "#434F2C",
+    "Description": "Avocado Green - Medium"
+  },
+  {
+    "Id": 271,
+    "BrandId": "938",
+    "BrandName": "DMC",
+    "Colour": "#45271A",
+    "Description": "Coffee Brown - Ultra Dark"
+  },
+  {
+    "Id": 272,
+    "BrandId": "939",
+    "BrandName": "DMC",
+    "Colour": "#09092F",
+    "Description": "Blue - Very Dark"
+  },
+  {
+    "Id": 273,
+    "BrandId": "943",
+    "BrandName": "DMC",
+    "Colour": "#009A77",
+    "Description": "Aquamarine - Medium"
+  },
+  {
+    "Id": 274,
+    "BrandId": "945",
+    "BrandName": "DMC",
+    "Colour": "#F6C19A",
+    "Description": "Tawny"
+  },
+  {
+    "Id": 275,
+    "BrandId": "946",
+    "BrandName": "DMC",
+    "Colour": "#ED4115",
+    "Description": "Burnt Orange - Medium"
+  },
+  {
+    "Id": 276,
+    "BrandId": "947",
+    "BrandName": "DMC",
+    "Colour": "#FC4F16",
+    "Description": "Burnt Orange"
+  },
+  {
+    "Id": 277,
+    "BrandId": "948",
+    "BrandName": "DMC",
+    "Colour": "#FDE6D3",
+    "Description": "Peach - Very Light"
+  },
+  {
+    "Id": 278,
+    "BrandId": "950",
+    "BrandName": "DMC",
+    "Colour": "#E5AC8D",
+    "Description": "Desert Sand - Light"
+  },
+  {
+    "Id": 279,
+    "BrandId": "951",
+    "BrandName": "DMC",
+    "Colour": "#FADDB6",
+    "Description": "Tawny - Light"
+  },
+  {
+    "Id": 280,
+    "BrandId": "954",
+    "BrandName": "DMC",
+    "Colour": "#6FDA8A",
+    "Description": "Nile Green"
+  },
+  {
+    "Id": 281,
+    "BrandId": "955",
+    "BrandName": "DMC",
+    "Colour": "#A8EBAD",
+    "Description": "Nile Green - Light"
+  },
+  {
+    "Id": 282,
+    "BrandId": "956",
+    "BrandName": "DMC",
+    "Colour": "#F7566D",
+    "Description": "Geranium"
+  },
+  {
+    "Id": 283,
+    "BrandId": "957",
+    "BrandName": "DMC",
+    "Colour": "#FD99AF",
+    "Description": "Geranium - Pale"
+  },
+  {
+    "Id": 284,
+    "BrandId": "958",
+    "BrandName": "DMC",
+    "Colour": "#0DB294",
+    "Description": "Seagreen - Dark"
+  },
+  {
+    "Id": 285,
+    "BrandId": "959",
+    "BrandName": "DMC",
+    "Colour": "#72D0B7",
+    "Description": "Seagreen - Medium"
+  },
+  {
+    "Id": 286,
+    "BrandId": "961",
+    "BrandName": "DMC",
+    "Colour": "#DE586C",
+    "Description": "Dusty Rose - Dark"
+  },
+  {
+    "Id": 287,
+    "BrandId": "962",
+    "BrandName": "DMC",
+    "Colour": "#EB7183",
+    "Description": "Dusty Rose - Medium"
+  },
+  {
+    "Id": 288,
+    "BrandId": "963",
+    "BrandName": "DMC",
+    "Colour": "#FDCCD1",
+    "Description": "Dusty Rose - Ultra Light"
+  },
+  {
+    "Id": 289,
+    "BrandId": "964",
+    "BrandName": "DMC",
+    "Colour": "#A5E4D4",
+    "Description": "Seagreen - Light"
+  },
+  {
+    "Id": 290,
+    "BrandId": "966",
+    "BrandName": "DMC",
+    "Colour": "#94D28A",
+    "Description": "Baby Green - Medium"
+  },
+  {
+    "Id": 291,
+    "BrandId": "967",
+    "BrandName": "DMC",
+    "Colour": "#FFC2AC",
+    "Description": "Peach - Light"
+  },
+  {
+    "Id": 292,
+    "BrandId": "970",
+    "BrandName": "DMC",
+    "Colour": "#FB6721",
+    "Description": "Pumpkin - Light"
+  },
+  {
+    "Id": 293,
+    "BrandId": "971",
+    "BrandName": "DMC",
+    "Colour": "#FC670D",
+    "Description": "Pumpkin"
+  },
+  {
+    "Id": 294,
+    "BrandId": "972",
+    "BrandName": "DMC",
+    "Colour": "#FB9F11",
+    "Description": "Canary - Deep"
+  },
+  {
+    "Id": 295,
+    "BrandId": "973",
+    "BrandName": "DMC",
+    "Colour": "#FCCD2D",
+    "Description": "Canary - Bright"
+  },
+  {
+    "Id": 296,
+    "BrandId": "975",
+    "BrandName": "DMC",
+    "Colour": "#813C11",
+    "Description": "Golden Brown - Dark"
+  },
+  {
+    "Id": 297,
+    "BrandId": "976",
+    "BrandName": "DMC",
+    "Colour": "#CF7532",
+    "Description": "Golden Brown - Medium"
+  },
+  {
+    "Id": 298,
+    "BrandId": "977",
+    "BrandName": "DMC",
+    "Colour": "#EC8F43",
+    "Description": "Golden Brown - Light"
+  },
+  {
+    "Id": 299,
+    "BrandId": "986",
+    "BrandName": "DMC",
+    "Colour": "#2E5230",
+    "Description": "Forest Green - Very Dark"
+  },
+  {
+    "Id": 300,
+    "BrandId": "987",
+    "BrandName": "DMC",
+    "Colour": "#436838",
+    "Description": "Forest Green - Dark"
+  },
+  {
+    "Id": 301,
+    "BrandId": "988",
+    "BrandName": "DMC",
+    "Colour": "#66924A",
+    "Description": "Forest Green - Medium"
+  },
+  {
+    "Id": 302,
+    "BrandId": "989",
+    "BrandName": "DMC",
+    "Colour": "#71A74E",
+    "Description": "Forest Green"
+  },
+  {
+    "Id": 303,
+    "BrandId": "991",
+    "BrandName": "DMC",
+    "Colour": "#135F55",
+    "Description": "Aquamarine - Dark"
+  },
+  {
+    "Id": 304,
+    "BrandId": "992",
+    "BrandName": "DMC",
+    "Colour": "#42B59E",
+    "Description": "Aquamarine - Light"
+  },
+  {
+    "Id": 305,
+    "BrandId": "993",
+    "BrandName": "DMC",
+    "Colour": "#62D8B6",
+    "Description": "Aquamarine - Very Light"
+  },
+  {
+    "Id": 306,
+    "BrandId": "995",
+    "BrandName": "DMC",
+    "Colour": "#0061B0",
+    "Description": "Electric Blue - Dark"
+  },
+  {
+    "Id": 307,
+    "BrandId": "996",
+    "BrandName": "DMC",
+    "Colour": "#49A8EB",
+    "Description": "Electric Blue - Medium"
+  },
+  {
+    "Id": 308,
+    "BrandId": "3011",
+    "BrandName": "DMC",
+    "Colour": "#655935",
+    "Description": "Khaki Green - Dark"
+  },
+  {
+    "Id": 309,
+    "BrandId": "3012",
+    "BrandName": "DMC",
+    "Colour": "#8B7B4E",
+    "Description": "Khaki Green - Medium"
+  },
+  {
+    "Id": 310,
+    "BrandId": "3013",
+    "BrandName": "DMC",
+    "Colour": "#AFA97B",
+    "Description": "Khaki Green - Light"
+  },
+  {
+    "Id": 311,
+    "BrandId": "3021",
+    "BrandName": "DMC",
+    "Colour": "#50403B",
+    "Description": "Brown Gray - Very Dark"
+  },
+  {
+    "Id": 312,
+    "BrandId": "3022",
+    "BrandName": "DMC",
+    "Colour": "#848274",
+    "Description": "Brown Gray - Medium"
+  },
+  {
+    "Id": 313,
+    "BrandId": "3023",
+    "BrandName": "DMC",
+    "Colour": "#A29B86",
+    "Description": "Brown Gray - Light"
+  },
+  {
+    "Id": 314,
+    "BrandId": "3024",
+    "BrandName": "DMC",
+    "Colour": "#BEB8AC",
+    "Description": "Brown Gray - Very Light"
+  },
+  {
+    "Id": 315,
+    "BrandId": "3031",
+    "BrandName": "DMC",
+    "Colour": "#423014",
+    "Description": "Mocha Brown - Very Dark"
+  },
+  {
+    "Id": 316,
+    "BrandId": "3032",
+    "BrandName": "DMC",
+    "Colour": "#9D8868",
+    "Description": "Mocha Brown - Medium"
+  },
+  {
+    "Id": 317,
+    "BrandId": "3033",
+    "BrandName": "DMC",
+    "Colour": "#DBC7AD",
+    "Description": "Mocha Brown - Very Light"
+  },
+  {
+    "Id": 318,
+    "BrandId": "3041",
+    "BrandName": "DMC",
+    "Colour": "#866A76",
+    "Description": "Antique Violet - Medium"
+  },
+  {
+    "Id": 319,
+    "BrandId": "3042",
+    "BrandName": "DMC",
+    "Colour": "#AF98A0",
+    "Description": "Antique Violet - Light"
+  },
+  {
+    "Id": 320,
+    "BrandId": "3045",
+    "BrandName": "DMC",
+    "Colour": "#AF8152",
+    "Description": "Yellow Beige - Dark"
+  },
+  {
+    "Id": 321,
+    "BrandId": "3046",
+    "BrandName": "DMC",
+    "Colour": "#CEB074",
+    "Description": "Yellow Beige - Medium"
+  },
+  {
+    "Id": 322,
+    "BrandId": "3047",
+    "BrandName": "DMC",
+    "Colour": "#EAD8AB",
+    "Description": "Yellow Beige - Light"
+  },
+  {
+    "Id": 323,
+    "BrandId": "3051",
+    "BrandName": "DMC",
+    "Colour": "#4C4C1E",
+    "Description": "Green Gray - Dark"
+  },
+  {
+    "Id": 324,
+    "BrandId": "3052",
+    "BrandName": "DMC",
+    "Colour": "#787E5C",
+    "Description": "Green Gray - Medium"
+  },
+  {
+    "Id": 325,
+    "BrandId": "3053",
+    "BrandName": "DMC",
+    "Colour": "#999D75",
+    "Description": "Green Gray"
+  },
+  {
+    "Id": 326,
+    "BrandId": "3064",
+    "BrandName": "DMC",
+    "Colour": "#BA7056",
+    "Description": "Desert Sand"
+  },
+  {
+    "Id": 327,
+    "BrandId": "3072",
+    "BrandName": "DMC",
+    "Colour": "#D2D2CA",
+    "Description": "Beaver Gray - Very Light"
+  },
+  {
+    "Id": 328,
+    "BrandId": "3078",
+    "BrandName": "DMC",
+    "Colour": "#FCF6B6",
+    "Description": "Golden Yellow - Very Light"
+  },
+  {
+    "Id": 329,
+    "BrandId": "3325",
+    "BrandName": "DMC",
+    "Colour": "#ADCDE7",
+    "Description": "Baby Blue - Light"
+  },
+  {
+    "Id": 330,
+    "BrandId": "3326",
+    "BrandName": "DMC",
+    "Colour": "#F9979C",
+    "Description": "Rose - Light"
+  },
+  {
+    "Id": 331,
+    "BrandId": "3328",
+    "BrandName": "DMC",
+    "Colour": "#BE444A",
+    "Description": "Salmon - Dark"
+  },
+  {
+    "Id": 332,
+    "BrandId": "3340",
+    "BrandName": "DMC",
+    "Colour": "#FD6B4F",
+    "Description": "Apricot - Medium"
+  },
+  {
+    "Id": 333,
+    "BrandId": "3341",
+    "BrandName": "DMC",
+    "Colour": "#FD8E78",
+    "Description": "Apricot"
+  },
+  {
+    "Id": 334,
+    "BrandId": "3345",
+    "BrandName": "DMC",
+    "Colour": "#40552E",
+    "Description": "Hunter Green - Dark"
+  },
+  {
+    "Id": 335,
+    "BrandId": "3346",
+    "BrandName": "DMC",
+    "Colour": "#56743B",
+    "Description": "Hunter Green"
+  },
+  {
+    "Id": 336,
+    "BrandId": "3347",
+    "BrandName": "DMC",
+    "Colour": "#6D9646",
+    "Description": "Yellow Green - Medium"
+  },
+  {
+    "Id": 337,
+    "BrandId": "3348",
+    "BrandName": "DMC",
+    "Colour": "#BEDF74",
+    "Description": "Yellow Green - Light"
+  },
+  {
+    "Id": 338,
+    "BrandId": "3350",
+    "BrandName": "DMC",
+    "Colour": "#AA3949",
+    "Description": "Dusty Rose - Ultra Dark"
+  },
+  {
+    "Id": 339,
+    "BrandId": "3354",
+    "BrandName": "DMC",
+    "Colour": "#EFA5AC",
+    "Description": "Dusty Rose - Light"
+  },
+  {
+    "Id": 340,
+    "BrandId": "3362",
+    "BrandName": "DMC",
+    "Colour": "#49523C",
+    "Description": "Pine Green - Dark"
+  },
+  {
+    "Id": 341,
+    "BrandId": "3363",
+    "BrandName": "DMC",
+    "Colour": "#617451",
+    "Description": "Pine Green - Medium"
+  },
+  {
+    "Id": 342,
+    "BrandId": "3364",
+    "BrandName": "DMC",
+    "Colour": "#8E9B6D",
+    "Description": "Pine Green"
+  },
+  {
+    "Id": 343,
+    "BrandId": "3371",
+    "BrandName": "DMC",
+    "Colour": "#36220E",
+    "Description": "Black Brown"
+  },
+  {
+    "Id": 344,
+    "BrandId": "3607",
+    "BrandName": "DMC",
+    "Colour": "#D94C9D",
+    "Description": "Plum - Light"
+  },
+  {
+    "Id": 345,
+    "BrandId": "3608",
+    "BrandName": "DMC",
+    "Colour": "#EC81BE",
+    "Description": "Plum - Very Light"
+  },
+  {
+    "Id": 346,
+    "BrandId": "3609",
+    "BrandName": "DMC",
+    "Colour": "#F6B0DF",
+    "Description": "Plum - Ultra Light"
+  },
+  {
+    "Id": 347,
+    "BrandId": "3685",
+    "BrandName": "DMC",
+    "Colour": "#79263B",
+    "Description": "Mauve - Very Dark"
+  },
+  {
+    "Id": 348,
+    "BrandId": "3687",
+    "BrandName": "DMC",
+    "Colour": "#B5455D",
+    "Description": "Mauve"
+  },
+  {
+    "Id": 349,
+    "BrandId": "3688",
+    "BrandName": "DMC",
+    "Colour": "#DC7C86",
+    "Description": "Mauve - Medium"
+  },
+  {
+    "Id": 350,
+    "BrandId": "3689",
+    "BrandName": "DMC",
+    "Colour": "#F8BBC8",
+    "Description": "Mauve - Light"
+  },
+  {
+    "Id": 351,
+    "BrandId": "3705",
+    "BrandName": "DMC",
+    "Colour": "#F2494F",
+    "Description": "Melon - Dark"
+  },
+  {
+    "Id": 352,
+    "BrandId": "3706",
+    "BrandName": "DMC",
+    "Colour": "#FD6E70",
+    "Description": "Melon - Medium"
+  },
+  {
+    "Id": 353,
+    "BrandId": "3708",
+    "BrandName": "DMC",
+    "Colour": "#FDA0AE",
+    "Description": "Melon - Light"
+  },
+  {
+    "Id": 354,
+    "BrandId": "3712",
+    "BrandName": "DMC",
+    "Colour": "#D95D5D",
+    "Description": "Salmon - Medium"
+  },
+  {
+    "Id": 355,
+    "BrandId": "3713",
+    "BrandName": "DMC",
+    "Colour": "#FDD5D0",
+    "Description": "Salmon - Very Light"
+  },
+  {
+    "Id": 356,
+    "BrandId": "3716",
+    "BrandName": "DMC",
+    "Colour": "#FCAFB9",
+    "Description": "Dusty Rose - Very Light"
+  },
+  {
+    "Id": 357,
+    "BrandId": "3721",
+    "BrandName": "DMC",
+    "Colour": "#933B3D",
+    "Description": "Shell Pink - Dark"
+  },
+  {
+    "Id": 358,
+    "BrandId": "3722",
+    "BrandName": "DMC",
+    "Colour": "#A04B4C",
+    "Description": "Shell Pink - Medium"
+  },
+  {
+    "Id": 359,
+    "BrandId": "3726",
+    "BrandName": "DMC",
+    "Colour": "#95565C",
+    "Description": "Antique Mauve - Dark"
+  },
+  {
+    "Id": 360,
+    "BrandId": "3727",
+    "BrandName": "DMC",
+    "Colour": "#DA9EA6",
+    "Description": "Antique Mauve - Light"
+  },
+  {
+    "Id": 361,
+    "BrandId": "3731",
+    "BrandName": "DMC",
+    "Colour": "#C34C5C",
+    "Description": "Dusty Rose - Very Dark"
+  },
+  {
+    "Id": 362,
+    "BrandId": "3733",
+    "BrandName": "DMC",
+    "Colour": "#EA7E86",
+    "Description": "Dusty Rose"
+  },
+  {
+    "Id": 363,
+    "BrandId": "3740",
+    "BrandName": "DMC",
+    "Colour": "#71535D",
+    "Description": "Antique Violet - Dark"
+  },
+  {
+    "Id": 364,
+    "BrandId": "3743",
+    "BrandName": "DMC",
+    "Colour": "#CFC2C9",
+    "Description": "Antique Violet - Very Light"
+  },
+  {
+    "Id": 365,
+    "BrandId": "3746",
+    "BrandName": "DMC",
+    "Colour": "#844AB5",
+    "Description": "Blue Violet - Dark"
+  },
+  {
+    "Id": 366,
+    "BrandId": "3747",
+    "BrandName": "DMC",
+    "Colour": "#D0C5EC",
+    "Description": "Blue Violet - Very Light"
+  },
+  {
+    "Id": 367,
+    "BrandId": "3750",
+    "BrandName": "DMC",
+    "Colour": "#1D4552",
+    "Description": "Antique Blue - Very Dark"
+  },
+  {
+    "Id": 368,
+    "BrandId": "3752",
+    "BrandName": "DMC",
+    "Colour": "#BAC9CC",
+    "Description": "Antique Blue - Very Light"
+  },
+  {
+    "Id": 369,
+    "BrandId": "3753",
+    "BrandName": "DMC",
+    "Colour": "#D9E6EC",
+    "Description": "Antique Blue - Ultra Light"
+  },
+  {
+    "Id": 370,
+    "BrandId": "3755",
+    "BrandName": "DMC",
+    "Colour": "#81A5D8",
+    "Description": "Baby Blue"
+  },
+  {
+    "Id": 371,
+    "BrandId": "3756",
+    "BrandName": "DMC",
+    "Colour": "#E9F4FA",
+    "Description": "Baby Blue"
+  },
+  {
+    "Id": 372,
+    "BrandId": "3760",
+    "BrandName": "DMC",
+    "Colour": "#467293",
+    "Description": "Wedgewood - Medium"
+  },
+  {
+    "Id": 373,
+    "BrandId": "3761",
+    "BrandName": "DMC",
+    "Colour": "#B1D0DF",
+    "Description": "Sky Blue - Light"
+  },
+  {
+    "Id": 374,
+    "BrandId": "3765",
+    "BrandName": "DMC",
+    "Colour": "#175E78",
+    "Description": "Peacock Blue - Very Dark"
+  },
+  {
+    "Id": 375,
+    "BrandId": "3766",
+    "BrandName": "DMC",
+    "Colour": "#4B8AA1",
+    "Description": "Peacock Blue - Light"
+  },
+  {
+    "Id": 376,
+    "BrandId": "3768",
+    "BrandName": "DMC",
+    "Colour": "#4C605F",
+    "Description": "Gray Green - Dark"
+  },
+  {
+    "Id": 377,
+    "BrandId": "3770",
+    "BrandName": "DMC",
+    "Colour": "#FEF1D8",
+    "Description": "Tawny - Very Light"
+  },
+  {
+    "Id": 378,
+    "BrandId": "3771",
+    "BrandName": "DMC",
+    "Colour": "#E8AC9B",
+    "Description": "Peach - Dark"
+  },
+  {
+    "Id": 379,
+    "BrandId": "3772",
+    "BrandName": "DMC",
+    "Colour": "#995744",
+    "Description": "Desert Sand - Very Dark"
+  },
+  {
+    "Id": 380,
+    "BrandId": "3773",
+    "BrandName": "DMC",
+    "Colour": "#CF866D",
+    "Description": "Desert Sand - Medium"
+  },
+  {
+    "Id": 381,
+    "BrandId": "3774",
+    "BrandName": "DMC",
+    "Colour": "#F3CFB4",
+    "Description": "Desert Sand - Very Light"
+  },
+  {
+    "Id": 382,
+    "BrandId": "3776",
+    "BrandName": "DMC",
+    "Colour": "#C96444",
+    "Description": "Mahogany - Light"
+  },
+  {
+    "Id": 383,
+    "BrandId": "3777",
+    "BrandName": "DMC",
+    "Colour": "#922F25",
+    "Description": "Terra Cotta - Very Dark"
+  },
+  {
+    "Id": 384,
+    "BrandId": "3778",
+    "BrandName": "DMC",
+    "Colour": "#D2705C",
+    "Description": "Terra Cotta - Light"
+  },
+  {
+    "Id": 385,
+    "BrandId": "3779",
+    "BrandName": "DMC",
+    "Colour": "#F2AB95",
+    "Description": "Terra Cotta - Ultra Light"
+  },
+  {
+    "Id": 386,
+    "BrandId": "3781",
+    "BrandName": "DMC",
+    "Colour": "#593F2B",
+    "Description": "Mocha Brown - Dark"
+  },
+  {
+    "Id": 387,
+    "BrandId": "3782",
+    "BrandName": "DMC",
+    "Colour": "#B69D80",
+    "Description": "Mocha Brown - Light"
+  },
+  {
+    "Id": 388,
+    "BrandId": "3787",
+    "BrandName": "DMC",
+    "Colour": "#62524C",
+    "Description": "Brown Gray - Dark"
+  },
+  {
+    "Id": 389,
+    "BrandId": "3790",
+    "BrandName": "DMC",
+    "Colour": "#6D5A4B",
+    "Description": "Beige Gray - Ultra Dark"
+  },
+  {
+    "Id": 390,
+    "BrandId": "3799",
+    "BrandName": "DMC",
+    "Colour": "#39393D",
+    "Description": "Pewter Gray - Very Dark"
+  },
+  {
+    "Id": 391,
+    "BrandId": "3801",
+    "BrandName": "DMC",
+    "Colour": "#E4353D",
+    "Description": "Melon - Very Dark"
+  },
+  {
+    "Id": 392,
+    "BrandId": "3802",
+    "BrandName": "DMC",
+    "Colour": "#672A33",
+    "Description": "Antique Mauve - Very Dark"
+  },
+  {
+    "Id": 393,
+    "BrandId": "3803",
+    "BrandName": "DMC",
+    "Colour": "#872A43",
+    "Description": "Mauve - Dark"
+  },
+  {
+    "Id": 394,
+    "BrandId": "3804",
+    "BrandName": "DMC",
+    "Colour": "#CE2B63",
+    "Description": "Cyclamen Pink - Dark"
+  },
+  {
+    "Id": 395,
+    "BrandId": "3805",
+    "BrandName": "DMC",
+    "Colour": "#DF3C73",
+    "Description": "Cyclamen Pink"
+  },
+  {
+    "Id": 396,
+    "BrandId": "3806",
+    "BrandName": "DMC",
+    "Colour": "#F15A91",
+    "Description": "Cyclamen Pink - Light"
+  },
+  {
+    "Id": 397,
+    "BrandId": "3807",
+    "BrandName": "DMC",
+    "Colour": "#4B599E",
+    "Description": "Cornflower Blue"
+  },
+  {
+    "Id": 398,
+    "BrandId": "3808",
+    "BrandName": "DMC",
+    "Colour": "#03535C",
+    "Description": "Turquoise - Ultra Dark"
+  },
+  {
+    "Id": 399,
+    "BrandId": "3809",
+    "BrandName": "DMC",
+    "Colour": "#136A75",
+    "Description": "Turquoise - Very Dark"
+  },
+  {
+    "Id": 400,
+    "BrandId": "3810",
+    "BrandName": "DMC",
+    "Colour": "#2D8D98",
+    "Description": "Turquoise - Dark"
+  },
+  {
+    "Id": 401,
+    "BrandId": "3811",
+    "BrandName": "DMC",
+    "Colour": "#A8E2E5",
+    "Description": "Turquoise - Very Light"
+  },
+  {
+    "Id": 402,
+    "BrandId": "3812",
+    "BrandName": "DMC",
+    "Colour": "#07A184",
+    "Description": "Seagreen - Very Dark"
+  },
+  {
+    "Id": 403,
+    "BrandId": "3813",
+    "BrandName": "DMC",
+    "Colour": "#86C3AB",
+    "Description": "Blue Green - Light"
+  },
+  {
+    "Id": 404,
+    "BrandId": "3814",
+    "BrandName": "DMC",
+    "Colour": "#0B8673",
+    "Description": "Aquamarine"
+  },
+  {
+    "Id": 405,
+    "BrandId": "3815",
+    "BrandName": "DMC",
+    "Colour": "#437259",
+    "Description": "Celadon Green - Dark"
+  },
+  {
+    "Id": 406,
+    "BrandId": "3816",
+    "BrandName": "DMC",
+    "Colour": "#60937A",
+    "Description": "Celadon Green"
+  },
+  {
+    "Id": 407,
+    "BrandId": "3817",
+    "BrandName": "DMC",
+    "Colour": "#81C6A4",
+    "Description": "Celadon Green - Light"
+  },
+  {
+    "Id": 408,
+    "BrandId": "3818",
+    "BrandName": "DMC",
+    "Colour": "#005D2E",
+    "Description": "Emerald Green - Ultra Dark"
+  },
+  {
+    "Id": 409,
+    "BrandId": "3819",
+    "BrandName": "DMC",
+    "Colour": "#CCC959",
+    "Description": "Moss Green - Light"
+  },
+  {
+    "Id": 410,
+    "BrandId": "3820",
+    "BrandName": "DMC",
+    "Colour": "#DBA53E",
+    "Description": "Straw - Dark"
+  },
+  {
+    "Id": 411,
+    "BrandId": "3821",
+    "BrandName": "DMC",
+    "Colour": "#EBBB52",
+    "Description": "Straw"
+  },
+  {
+    "Id": 412,
+    "BrandId": "3822",
+    "BrandName": "DMC",
+    "Colour": "#F7D169",
+    "Description": "Straw - Light"
+  },
+  {
+    "Id": 413,
+    "BrandId": "3823",
+    "BrandName": "DMC",
+    "Colour": "#FEF5CD",
+    "Description": "Yellow - Ultra Pale"
+  },
+  {
+    "Id": 414,
+    "BrandId": "3824",
+    "BrandName": "DMC",
+    "Colour": "#FCAE99",
+    "Description": "Apricot - Light"
+  },
+  {
+    "Id": 415,
+    "BrandId": "3825",
+    "BrandName": "DMC",
+    "Colour": "#FEA370",
+    "Description": "Pumpkin - Pale"
+  },
+  {
+    "Id": 416,
+    "BrandId": "3826",
+    "BrandName": "DMC",
+    "Colour": "#B16633",
+    "Description": "Golden Brown"
+  },
+  {
+    "Id": 417,
+    "BrandId": "3827",
+    "BrandName": "DMC",
+    "Colour": "#EAA664",
+    "Description": "Golden Brown - Pale"
+  },
+  {
+    "Id": 418,
+    "BrandId": "3828",
+    "BrandName": "DMC",
+    "Colour": "#AA7C43",
+    "Description": "Hazelnut Brown"
+  },
+  {
+    "Id": 419,
+    "BrandId": "3829",
+    "BrandName": "DMC",
+    "Colour": "#A7671D",
+    "Description": "Old Gold - Very Dark"
+  },
+  {
+    "Id": 420,
+    "BrandId": "3830",
+    "BrandName": "DMC",
+    "Colour": "#A94138",
+    "Description": "Terra Cotta"
+  },
+  {
+    "Id": 421,
+    "BrandId": "3831",
+    "BrandName": "DMC",
+    "Colour": "#C12B52",
+    "Description": "Raspberry - Dark"
+  },
+  {
+    "Id": 422,
+    "BrandId": "3832",
+    "BrandName": "DMC",
+    "Colour": "#E36370",
+    "Description": "Raspberry - Medium"
+  },
+  {
+    "Id": 423,
+    "BrandId": "3833",
+    "BrandName": "DMC",
+    "Colour": "#EA8B96",
+    "Description": "Raspberry - Light"
+  },
+  {
+    "Id": 424,
+    "BrandId": "3834",
+    "BrandName": "DMC",
+    "Colour": "#6A2258",
+    "Description": "Grape - Dark"
+  },
+  {
+    "Id": 425,
+    "BrandId": "3835",
+    "BrandName": "DMC",
+    "Colour": "#924D78",
+    "Description": "Grape - Medium"
+  },
+  {
+    "Id": 426,
+    "BrandId": "3836",
+    "BrandName": "DMC",
+    "Colour": "#C597B9",
+    "Description": "Grape - Light"
+  },
+  {
+    "Id": 427,
+    "BrandId": "3837",
+    "BrandName": "DMC",
+    "Colour": "#8A2A8F",
+    "Description": "Lavender - Ultra Dark"
+  },
+  {
+    "Id": 428,
+    "BrandId": "3838",
+    "BrandName": "DMC",
+    "Colour": "#606BAD",
+    "Description": "Lavender Blue - Dark"
+  },
+  {
+    "Id": 429,
+    "BrandId": "3839",
+    "BrandName": "DMC",
+    "Colour": "#7A7EC5",
+    "Description": "Lavender Blue - Medium"
+  },
+  {
+    "Id": 430,
+    "BrandId": "3840",
+    "BrandName": "DMC",
+    "Colour": "#B2BDEA",
+    "Description": "Lavender Blue - Light"
+  },
+  {
+    "Id": 431,
+    "BrandId": "3841",
+    "BrandName": "DMC",
+    "Colour": "#D9EAF2",
+    "Description": "Baby Blue - Pale"
+  },
+  {
+    "Id": 432,
+    "BrandId": "3842",
+    "BrandName": "DMC",
+    "Colour": "#06506A",
+    "Description": "Wedgewood - Dark"
+  },
+  {
+    "Id": 433,
+    "BrandId": "3843",
+    "BrandName": "DMC",
+    "Colour": "#28A3DE",
+    "Description": "Electric Blue"
+  },
+  {
+    "Id": 434,
+    "BrandId": "3844",
+    "BrandName": "DMC",
+    "Colour": "#1F7FA0",
+    "Description": "Bright Turquoise - Dark"
+  },
+  {
+    "Id": 435,
+    "BrandId": "3845",
+    "BrandName": "DMC",
+    "Colour": "#2BADD1",
+    "Description": "Bright Turquoise - Medium"
+  },
+  {
+    "Id": 436,
+    "BrandId": "3846",
+    "BrandName": "DMC",
+    "Colour": "#5ECCEC",
+    "Description": "Bright Turquoise - Light"
+  },
+  {
+    "Id": 437,
+    "BrandId": "3847",
+    "BrandName": "DMC",
+    "Colour": "#186358",
+    "Description": "Teal Green - Dark"
+  },
+  {
+    "Id": 438,
+    "BrandId": "3848",
+    "BrandName": "DMC",
+    "Colour": "#207E72",
+    "Description": "Teal Green - Medium"
+  },
+  {
+    "Id": 439,
+    "BrandId": "3849",
+    "BrandName": "DMC",
+    "Colour": "#35B193",
+    "Description": "Teal Green - Light"
+  },
+  {
+    "Id": 440,
+    "BrandId": "3850",
+    "BrandName": "DMC",
+    "Colour": "#208B46",
+    "Description": "Bright Green - Dark"
+  },
+  {
+    "Id": 441,
+    "BrandId": "3851",
+    "BrandName": "DMC",
+    "Colour": "#61BB84",
+    "Description": "Bright Green - Light"
+  },
+  {
+    "Id": 442,
+    "BrandId": "3852",
+    "BrandName": "DMC",
+    "Colour": "#E3A730",
+    "Description": "Straw - Very Dark"
+  },
+  {
+    "Id": 443,
+    "BrandId": "3853",
+    "BrandName": "DMC",
+    "Colour": "#EF8125",
+    "Description": "Autumn Gold - Dark"
+  },
+  {
+    "Id": 444,
+    "BrandId": "3854",
+    "BrandName": "DMC",
+    "Colour": "#FBAC56",
+    "Description": "Autumn Gold - Medium"
+  },
+  {
+    "Id": 445,
+    "BrandId": "3855",
+    "BrandName": "DMC",
+    "Colour": "#FDDFA0",
+    "Description": "Autumn Gold - Light"
+  },
+  {
+    "Id": 446,
+    "BrandId": "3856",
+    "BrandName": "DMC",
+    "Colour": "#FDBE8E",
+    "Description": "Mahogany - Ultra Light"
+  },
+  {
+    "Id": 447,
+    "BrandId": "3857",
+    "BrandName": "DMC",
+    "Colour": "#6A2F26",
+    "Description": "Rosewood - Dark"
+  },
+  {
+    "Id": 448,
+    "BrandId": "3858",
+    "BrandName": "DMC",
+    "Colour": "#803A32",
+    "Description": "Rosewood - Medium"
+  },
+  {
+    "Id": 449,
+    "BrandId": "3859",
+    "BrandName": "DMC",
+    "Colour": "#BA7A6C",
+    "Description": "Rosewood - Light"
+  },
+  {
+    "Id": 450,
+    "BrandId": "3860",
+    "BrandName": "DMC",
+    "Colour": "#896362",
+    "Description": "Cocoa"
+  },
+  {
+    "Id": 451,
+    "BrandId": "3861",
+    "BrandName": "DMC",
+    "Colour": "#AC8583",
+    "Description": "Cocoa - Light"
+  },
+  {
+    "Id": 452,
+    "BrandId": "3862",
+    "BrandName": "DMC",
+    "Colour": "#6E492A",
+    "Description": "Mocha Beige - Dark"
+  },
+  {
+    "Id": 453,
+    "BrandId": "3863",
+    "BrandName": "DMC",
+    "Colour": "#94725D",
+    "Description": "Mocha Beige - Medium"
+  },
+  {
+    "Id": 454,
+    "BrandId": "3864",
+    "BrandName": "DMC",
+    "Colour": "#C9AA92",
+    "Description": "Mocha Beige - Light"
+  },
+  {
+    "Id": 455,
+    "BrandId": "3865",
+    "BrandName": "DMC",
+    "Colour": "#FFFDF9",
+    "Description": "Winter White"
+  },
+  {
+    "Id": 456,
+    "BrandId": "3866",
+    "BrandName": "DMC",
+    "Colour": "#F0E6D7",
+    "Description": "Mocha Brown - Ultra Light"
+  }
+]
