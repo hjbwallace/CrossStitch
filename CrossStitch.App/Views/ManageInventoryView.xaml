@@ -1,0 +1,103 @@
+﻿<Page x:Class="CrossStitch.App.Views.ManageInventoryView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:CrossStitch.App.Views"
+      xmlns:controls="clr-namespace:CrossStitch.App.Controls"
+      DataContext="{Binding ManageInventoryView, Source={StaticResource ViewModelLocator}}"
+      mc:Ignorable="d"
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ManageInventoryView">
+
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+
+    <DockPanel LastChildFill="False">
+      <controls:SearchBox DockPanel.Dock="Top" Watermark="Enter Id, Description or Brand" EnterCommand="{Binding SearchCommand}" Source="{Binding Criteria.SearchString, Mode=TwoWay}" />
+      <CheckBox DockPanel.Dock="Left" Content="Show all threads" IsChecked="{Binding Criteria.ShowAllThreads, Mode=TwoWay}" Margin="5" />
+
+      <StackPanel DockPanel.Dock="Right" Orientation="Horizontal" Margin="0">
+        <Button Content="Search" Command="{Binding SearchCommand}" />
+        <Button Content="New" Command="{Binding NewThreadReferenceCommand}" />
+        <Button Content="Manage" Command="{Binding EditThreadReferenceCommand}" CommandParameter="{Binding Path=SelectedItem, ElementName=inventory}">
+          <Button.Style>
+            <Style TargetType="Button" BasedOn="{StaticResource DefaultButton}">
+              <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=SelectedItem, ElementName=inventory, Converter={StaticResource IsNullConverter}}" Value="True">
+                  <Setter Property="Button.IsEnabled" Value="False" />
+                </DataTrigger>
+              </Style.Triggers>
+            </Style>
+          </Button.Style>
+        </Button>
+      </StackPanel>
+    </DockPanel>
+
+    <ListView Name="inventory"
+                      ItemsSource="{Binding SearchResults, Mode=TwoWay}"
+                      Grid.Row="1"
+                      ItemContainerStyle="{StaticResource AlternatingStyle}"
+                      AlternationCount="2"
+                      controls:GridViewSort.AutoSort="True"
+                      SelectedItem="{Binding SelectedItem}"
+                      SelectionMode="Single"
+                      Margin="5 0">
+      <ListView.Resources>
+        <AlternationConverter x:Key="AltCnvKey">
+          <SolidColorBrush Color="Snow" />
+          <SolidColorBrush Color="LightBlue" />
+          <SolidColorBrush Color="Orange" />
+        </AlternationConverter>
+      </ListView.Resources>
+      <ListBox.InputBindings>
+        <MouseBinding Gesture="LeftDoubleClick" Command="{Binding DataContext.EditThreadReferenceCommand, ElementName=inventory}"
+        CommandParameter="{Binding SelectedItem,
+            RelativeSource={RelativeSource FindAncestor, AncestorType=ListBox}}" />
+      </ListBox.InputBindings>
+      <ListView.View>
+        <GridView AllowsColumnReorder="False">
+          <GridViewColumn Width="40">
+            <GridViewColumn.CellTemplate>
+              <DataTemplate>
+                <Border Width="20" Height="20" Background="{Binding Colour, Converter={StaticResource StringToBrushConverter}}" />
+              </DataTemplate>
+            </GridViewColumn.CellTemplate>
+          </GridViewColumn>
+          <GridViewColumn Width="70" Header="Brand" DisplayMemberBinding="{Binding BrandName}" controls:GridViewSort.PropertyName="BrandName" />
+          <GridViewColumn Width="60" Header="Id" DisplayMemberBinding="{Binding BrandId}" controls:GridViewSort.PropertyName="BrandId" />
+          <GridViewColumn Width="250" Header="Description" DisplayMemberBinding="{Binding Description}" controls:GridViewSort.PropertyName="Description" />
+          <GridViewColumn Width="50" Header="Length" controls:GridViewSort.PropertyName="OwnedLength">
+            <GridViewColumn.CellTemplate>
+              <DataTemplate>
+                <TextBlock Width="80" Text="{Binding CurrentLength, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource OwnedText}" />
+              </DataTemplate>
+            </GridViewColumn.CellTemplate>
+          </GridViewColumn>
+          <GridViewColumn Width="100" Header="New Length">
+            <GridViewColumn.CellTemplate>
+              <DataTemplate>
+                <TextBox Width="80" Text="{Binding NewLength, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+              </DataTemplate>
+            </GridViewColumn.CellTemplate>
+          </GridViewColumn>
+          <GridViewColumn Header="">
+            <GridViewColumn.CellTemplate>
+              <DataTemplate>
+                <Button Content="Edit" Command="{Binding ElementName=inventory, Path=DataContext.EditThreadReferenceCommand}" CommandParameter="{Binding Wrapped}" Style="{StaticResource Small}" HorizontalAlignment="Center" />
+              </DataTemplate>
+            </GridViewColumn.CellTemplate>
+          </GridViewColumn>
+        </GridView>
+      </ListView.View>
+    </ListView>
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Grid.Row="2">
+      <Button Content="Save" Command="{Binding SaveCommand}" />
+      <Button Content="Cancel" Command="{Binding CancelCommand}" />
+    </StackPanel>
+  </Grid>
+</Page>

@@ -1,0 +1,36 @@
+﻿<Page x:Class="CrossStitch.App.Views.EditThreadReferenceView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:controls="clr-namespace:CrossStitch.App.Controls"
+      DataContext="{Binding EditThreadReferenceView, Source={StaticResource ViewModelLocator}}"
+      mc:Ignorable="d"
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="EditThreadReferenceView"
+      HorizontalAlignment="Center"
+      MinWidth="500">
+
+  <StackPanel>
+    <controls:Input Source="{Binding ThreadReference.BrandId, UpdateSourceTrigger=PropertyChanged}" />
+    <controls:Input Source="{Binding ThreadReference.BrandName, UpdateSourceTrigger=PropertyChanged}" />
+    <controls:Input Source="{Binding ThreadReference.Description, UpdateSourceTrigger=PropertyChanged}" />
+
+    <Grid>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="Auto" />
+      </Grid.ColumnDefinitions>
+
+      <controls:Input Source="{Binding ThreadReference.Colour, UpdateSourceTrigger=PropertyChanged}" />
+      <Button Grid.Column="1" Width="15" VerticalAlignment="Stretch" Margin="0 5 10 5" Padding="5" Background="{Binding ThreadReference.Colour, Converter={StaticResource StringToBrushConverter}}" IsTabStop="False" BorderBrush="Black" BorderThickness="1" />
+    </Grid>
+
+    <controls:Input Source="{Binding ThreadReference.OwnedLength, UpdateSourceTrigger=PropertyChanged}" />
+
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 10 0 0">
+      <Button Name="SaveButton" Content="Save" Command="{Binding SaveCommand}" IsDefault="True" />
+      <Button Name="CancelButton" Content="Cancel" Command="{Binding CancelCommand}" IsCancel="True" />
+    </StackPanel>
+  </StackPanel>
+</Page>

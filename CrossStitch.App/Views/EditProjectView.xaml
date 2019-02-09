@@ -1,0 +1,86 @@
+﻿<Page x:Class="CrossStitch.App.Views.EditProjectView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:CrossStitch.App.Views"
+      xmlns:controls="clr-namespace:CrossStitch.App.Controls"
+      DataContext="{Binding EditProjectView, Source={StaticResource ViewModelLocator}}"
+      mc:Ignorable="d"
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="EditProjectView">
+
+  <StackPanel Name="EditDialog" Margin="10" MaxWidth="500">
+    <controls:Input Source="{Binding Project.Name}" />
+    <controls:Input Source="{Binding Project.Description}" />
+
+    <ItemsControl ItemsSource="{Binding Project.PatternProjects}"
+                  AlternationCount="2"
+                  BorderBrush="DarkGray"
+                  BorderThickness="1">
+      <ItemsControl.ItemTemplate>
+        <DataTemplate>
+          <Grid Background="Transparent" x:Name="__PART_GRID">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*" />
+              <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="{Binding Pattern.Name}" Grid.Column="0" Padding="5" />
+            <CheckBox Content="Completed" IsChecked="{Binding IsCompleted, Mode=TwoWay}" Grid.Column="1" Padding="5" Checked="OnPatternCompletedChanged" Unchecked="OnPatternCompletedChanged" />
+          </Grid>
+          <DataTemplate.Triggers>
+            <Trigger Property="ItemsControl.AlternationIndex" Value="0">
+              <Setter TargetName="__PART_GRID" Property="Background" Value="WhiteSmoke" />
+            </Trigger>
+            <Trigger Property="ItemsControl.AlternationIndex" Value="1">
+              <Setter TargetName="__PART_GRID" Property="Background" Value="White" />
+            </Trigger>
+          </DataTemplate.Triggers>
+        </DataTemplate>
+      </ItemsControl.ItemTemplate>
+    </ItemsControl>
+
+    <ListView Name="patterns"
+                      ItemsSource="{Binding ThreadSummary, Mode=TwoWay}"
+                      ItemContainerStyle="{StaticResource AlternatingStyle}"
+                      AlternationCount="2"
+                      controls:GridViewSort.AutoSort="True"
+                      SelectionMode="Single"
+              Margin="0 5"
+              Visibility="{Binding ThreadSummary, Converter={StaticResource AnyToVisibilityConverter}}">
+      <ListView.View>
+        <GridView AllowsColumnReorder="False">
+          <GridViewColumn Width="290" Header="Thread" controls:GridViewSort.PropertyName="BrandName">
+            <GridViewColumn.CellTemplate>
+              <DataTemplate>
+                <StackPanel Orientation="Horizontal">
+                  <Border Width="20" Height="20" Background="{Binding ThreadReference.Colour, Converter={StaticResource StringToBrushConverter}}" Margin="0 0 10 0" />
+                  <TextBlock Text="{Binding ThreadReference.BrandName}" />
+                  <TextBlock Text="-" />
+                  <TextBlock Text="{Binding ThreadReference.BrandId}" Margin="0 0 10 0" />
+                  <TextBlock Text="{Binding ThreadReference.Description}" />
+                </StackPanel>
+              </DataTemplate>
+            </GridViewColumn.CellTemplate>
+          </GridViewColumn>
+          <GridViewColumn Width="100" Header="Owned" DisplayMemberBinding="{Binding ThreadReference.OwnedLength}" controls:GridViewSort.PropertyName="OwnedLength" />
+          <GridViewColumn Width="100" Header="Required"  controls:GridViewSort.PropertyName="RequiredLength">
+            <GridViewColumn.CellTemplate>
+              <DataTemplate>
+                <TextBlock Text="{Binding RequiredLength}" Style="{StaticResource RequiresText}" />
+              </DataTemplate>
+            </GridViewColumn.CellTemplate>
+          </GridViewColumn>
+        </GridView>
+      </ListView.View>
+    </ListView>
+
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 10 0 0">
+      <Button Name="OrderButton" Content="Generate Order" Command="{Binding GenerateOrderCommand}" />
+      <Button Content="Update Patterns" Command="{Binding UpdatePatternsCommand}" CommandParameter="{Binding Project}" />
+      <Button Name="SaveButton" Content="Save" Command="{Binding SaveCommand}" IsDefault="True" />
+      <Button Name="CancelButton" Content="Cancel" Command="{Binding CancelCommand}" IsCancel="True" />
+    </StackPanel>
+  </StackPanel>
+</Page>

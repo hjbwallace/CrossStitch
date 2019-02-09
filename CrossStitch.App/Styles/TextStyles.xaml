@@ -1,0 +1,76 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <Style TargetType="TextBlock" x:Key="DefaultText">
+    <Setter Property="VerticalAlignment" Value="Center" />
+  </Style>
+
+  <Style TargetType="TextBlock" BasedOn="{StaticResource DefaultText}" />
+
+  <Style TargetType="TextBlock" BasedOn="{StaticResource DefaultText}" x:Key="LargeText">
+    <Setter Property="FontSize" Value="14" />
+  </Style>
+
+  <Style TargetType="TextBlock" BasedOn="{StaticResource LargeText}" x:Key="MinorHeading">
+    <Setter Property="FontWeight" Value="Bold" />
+  </Style>
+
+  <Style TargetType="TextBlock" BasedOn="{StaticResource MinorHeading}" x:Key="MajorHeading">
+    <Setter Property="FontWeight" Value="Regular" />
+    <Setter Property="FontSize" Value="18" />
+    <Setter Property="Foreground" Value="{DynamicResource Heading}" />
+  </Style>
+
+  <Style TargetType="TextBox" x:Key="DefaultTextBox">
+    <Setter Property="VerticalAlignment" Value="Center" />
+    <Setter Property="VerticalContentAlignment" Value="Center" />
+    <Setter Property="HorizontalAlignment" Value="Stretch" />
+    <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+    <Style.Triggers>
+      <Trigger Property="Validation.HasError" Value="true">
+        <Setter Property="ToolTip" Value="{Binding RelativeSource={x:Static RelativeSource.Self}, Path=(Validation.Errors)[0].ErrorContent}" />
+      </Trigger>
+    </Style.Triggers>
+  </Style>
+
+  <Style TargetType="TextBox" BasedOn="{StaticResource DefaultTextBox}" />
+
+  <Style TargetType="TextBox" BasedOn="{StaticResource DefaultTextBox}" x:Key="LargeTextBox">
+    <Setter Property="FontSize" Value="14" />
+  </Style>
+
+  <Style TargetType="{x:Type TextBlock}" BasedOn="{StaticResource DefaultText}" x:Key="RequiresText">
+    <Setter Property="Foreground" Value="Red" />
+    <Setter Property="FontWeight" Value="Bold" />
+    <Style.Triggers>
+      <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Text}" Value="0">
+        <Setter Property="Foreground" Value="Green" />
+      </DataTrigger>
+    </Style.Triggers>
+  </Style>
+
+  <Style TargetType="{x:Type TextBlock}" BasedOn="{StaticResource DefaultText}" x:Key="OwnedText">
+    <Setter Property="FontWeight" Value="Bold" />
+    <Style.Triggers>
+      <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Text}" Value="0">
+        <Setter Property="FontWeight" Value="Regular" />
+      </DataTrigger>
+    </Style.Triggers>
+  </Style>
+
+  <DataTemplate x:Key="RequiredStyling">
+    <TextBlock Text="{Binding Path=Text}">
+      <TextBlock.Style>
+        <Style TargetType="{x:Type TextBlock}" BasedOn="{StaticResource DefaultText}">
+          <Setter Property="Foreground" Value="Red" />
+          <Setter Property="FontWeight" Value="Bold" />
+          <Style.Triggers>
+            <DataTrigger Binding="{Binding Path=Text}" Value="0">
+              <Setter Property="Foreground" Value="Green" />
+            </DataTrigger>
+          </Style.Triggers>
+        </Style>
+      </TextBlock.Style>
+    </TextBlock>
+  </DataTemplate>
+</ResourceDictionary>
