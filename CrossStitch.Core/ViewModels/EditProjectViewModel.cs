@@ -4,6 +4,7 @@ using CrossStitch.Core.Extensions;
 using CrossStitch.Core.Interfaces;
 using CrossStitch.Core.Models;
 using GalaSoft.MvvmLight.CommandWpf;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -153,6 +154,8 @@ namespace CrossStitch.Core.ViewModels
 
         private void OnSave()
         {
+            Log.Information("Attempting to save {Type}", typeof(Project).Name);
+
             var context = new ValidationContext(Project, null, null);
             var results = new List<ValidationResult>();
             Validator.TryValidateObject(Project, context, results, true);

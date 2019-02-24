@@ -3,6 +3,7 @@ using CrossStitch.Core.Interfaces;
 using CrossStitch.Core.Models;
 using CrossStitch.Core.Validation;
 using GalaSoft.MvvmLight.CommandWpf;
+using Serilog;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -108,6 +109,8 @@ namespace CrossStitch.Core.ViewModels
 
         protected override void OnSave()
         {
+            Log.Information("Attempting to save {Type}", typeof(TEntity).Name);
+
             var context = new ValidationContext(Model, null, null);
             var results = new List<ValidationResult>();
             Validator.TryValidateObject(Model, context, results, true);

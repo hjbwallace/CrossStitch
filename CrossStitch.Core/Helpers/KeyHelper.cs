@@ -21,6 +21,12 @@ namespace CrossStitch.Core.Helpers
             return keyProperty;
         }
 
+        public static T GetKeyValue<T>(object source)
+        {
+            var keyProperty = GetKeyProperty<T>();
+            return (T)keyProperty.GetValue(source);
+        }
+
         private static PropertyInfo GetPropertyInfo(Type type)
         {
             return type.GetProperties().SingleOrDefault(x => x.GetCustomAttribute<KeyAttribute>() != null);

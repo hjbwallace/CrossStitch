@@ -6,6 +6,8 @@ namespace CrossStitch.Tests.Mocks
 {
     public class TestBootstrapper : BootstrapperBase
     {
+        protected override string LogFileFormat => @"CrossStitchTest-{Date}.log";
+
         protected override void RegisterContextFactory()
         {
             SimpleIoc.Default.Register<IDatabaseContextService, TestContextFactory>();

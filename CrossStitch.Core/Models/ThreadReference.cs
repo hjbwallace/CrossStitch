@@ -33,5 +33,10 @@ namespace CrossStitch.Core.Models
         public int OwnedLength { get; set; }
 
         public ICollection<ThreadBase> Threads { get; set; } = new List<ThreadBase>();
+
+        public override string ToString()
+        {
+            return $"{BrandName ?? "-"}-{BrandId ?? "-"} {Description}";
+        }
     }
 }

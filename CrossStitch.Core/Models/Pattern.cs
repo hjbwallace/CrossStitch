@@ -59,6 +59,11 @@ namespace CrossStitch.Core.Models
 
         public int ThreadCount => Threads.Count();
         public ICollection<PatternThread> Threads { get; set; } = new ObservableCollection<PatternThread>();
+
+        public override string ToString()
+        {
+            return Name;
+        }
     }
 
     public class PatternProject : NotifyPropertyChanged

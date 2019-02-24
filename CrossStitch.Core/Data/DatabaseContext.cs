@@ -2,6 +2,7 @@
 using CrossStitch.Core.Models;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
+using Serilog;
 using System.Collections.Generic;
 using System.IO;
 
@@ -15,6 +16,8 @@ namespace CrossStitch.Core.Data
         {
             if (!_created)
             {
+                Log.Information("Creating the database context");
+
                 SQLitePCL.raw.SetProvider(new SQLitePCL.SQLite3Provider_e_sqlite3());
 
                 _created = true;
