@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
 using System.Linq.Expressions;
+using Serilog;
 
 namespace CrossStitch.Core.Data
 {
@@ -50,18 +51,24 @@ namespace CrossStitch.Core.Data
             using (var ctx = GetContext())
             {
                 foreach (var entity in entities)
+                {
+                    Log.Information("Removing {Type} from the database: {Entity}", typeof(T).Name, entity.ToString());
                     ctx.Remove(entity);
+                }
 
                 ctx.SaveChanges();
             }
         }
 
-        public virtual void Save(params T[] entities)
+        public void Save(params T[] entities)
         {
             using (var ctx = GetContext())
             {
                 foreach (var entity in entities)
+                {
+                    Log.Information("Saving {Type} to the database: {Entity}", typeof(T).Name, entity.ToString());
                     ctx.AddOrUpdate(entity);
+                }
 
                 ctx.SaveChanges();
             }
@@ -88,10 +95,6 @@ namespace CrossStitch.Core.Data
         protected virtual T GetSingle(IQueryable<T> source, object key)
         {
             var keyProperty = KeyHelper.GetKeyProperty<T>();
-
-            var test = source.Take(100).Select(x => keyProperty.GetValue(x)).ToArray();
-
-
             return source.SingleOrDefault(s => keyProperty.GetValue(s).Equals(key));
         }
     }

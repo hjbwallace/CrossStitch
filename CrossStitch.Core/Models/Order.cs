@@ -26,11 +26,11 @@ namespace CrossStitch.Core.Models
         [Ui("Date Completed")]
         public DateTime? DateCompleted { get; private set; }
 
-        [Ui("Date Ordered")]
-        public DateTime? DateOrdered { get; private set; }
-
         [Ui("Date Created")]
         public DateTime DateCreated { get; private set; }
+
+        [Ui("Date Ordered")]
+        public DateTime? DateOrdered { get; private set; }
 
         [Required]
         [Ui("Description")]
@@ -69,15 +69,6 @@ namespace CrossStitch.Core.Models
 
         public ICollection<OrderThread> Threads { get; set; }
 
-        public void Create(DateTime now)
-        {
-            if (Status != OrderState.None)
-                InvalidStateTransitionTo(OrderState.Created);
-
-            Status = OrderState.Created;
-            DateCreated = now;
-        }
-
         public void Cancel(DateTime now)
         {
             if (Status != OrderState.Created && Status != OrderState.AwaitingConfirmation)
@@ -96,6 +87,15 @@ namespace CrossStitch.Core.Models
             DateCompleted = now;
         }
 
+        public void Create(DateTime now)
+        {
+            if (Status != OrderState.None)
+                InvalidStateTransitionTo(OrderState.Created);
+
+            Status = OrderState.Created;
+            DateCreated = now;
+        }
+
         public void Send(DateTime now)
         {
             if (Status == OrderState.None)
@@ -106,6 +106,11 @@ namespace CrossStitch.Core.Models
 
             Status = OrderState.AwaitingConfirmation;
             DateOrdered = now;
+        }
+
+        public override string ToString()
+        {
+            return Description;
         }
 
         private void InvalidStateTransitionTo(OrderState state)

@@ -4,6 +4,8 @@ using CrossStitch.Core.Interfaces;
 using CrossStitch.Core.Services;
 using CrossStitch.Core.ViewModels;
 using GalaSoft.MvvmLight.Ioc;
+using Serilog;
+using System.IO;
 
 namespace CrossStitch.Core
 {
@@ -23,6 +25,21 @@ namespace CrossStitch.Core
             RegisterContextFactory();
             RegisterDateTimeProvider();
             RegisterBackupService();
+
+            // Logging
+            ConfigureLogging();
+        }
+
+        protected virtual string LoggingDirectory => @"C:\Logs\";
+        protected virtual string LogFileFormat => @"CrossStitch-{Date}.log";
+
+        protected virtual void ConfigureLogging()
+        {
+            Directory.CreateDirectory(LoggingDirectory);
+
+            Log.Logger = new LoggerConfiguration()
+                .WriteTo.RollingFile(LoggingDirectory + LogFileFormat)
+                .CreateLogger();
         }
 
         protected virtual void RegisterBackupService()
