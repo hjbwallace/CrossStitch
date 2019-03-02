@@ -24,6 +24,8 @@ namespace CrossStitch.Tests.Fixtures
             Dialog = (TestDialogService)SimpleIoc.Default.GetInstance<IDialogService>();
 
             _contextFunc = SimpleIoc.Default.GetInstance<IDatabaseContextService>().GetContext();
+            _contextFunc.Invoke().Database.EnsureDeleted();
+            _contextFunc.Invoke().Database.EnsureCreated();
         }
 
         public TestDialogService Dialog { get; }

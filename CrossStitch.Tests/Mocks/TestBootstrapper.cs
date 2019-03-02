@@ -10,7 +10,7 @@ namespace CrossStitch.Tests.Mocks
 
         protected override void RegisterContextFactory()
         {
-            SimpleIoc.Default.Register<IDatabaseContextService, TestContextFactory>();
+            SimpleIoc.Default.Register<IDatabaseContextService, TestDatabaseContextService>();
         }
 
         protected override void RegisterDateTimeProvider()

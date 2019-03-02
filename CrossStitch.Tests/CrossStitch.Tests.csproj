@@ -188,6 +188,7 @@
     <Compile Include="ViewModels\EditPatternViewModelTests.cs" />
     <Compile Include="ViewModels\EditProjectViewModelTests.cs" />
     <Compile Include="ViewModels\EditThreadReferencesViewModelTests.cs" />
+    <Compile Include="ViewModels\ManageInventoryViewModelTests.cs" />
     <Compile Include="ViewModels\ViewModelTests.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -40,7 +40,7 @@ namespace CrossStitch.Tests.ViewModels
         [InlineData(null, "Name", 0, "Blue", null, false)]
         [InlineData("Id", null, 0, "Blue", null, false)]
         [InlineData("Id", "Name", 0, null, null, false)]
-        private void CanSaveReference(string id, string name, int length, string colour, string description, bool expected)
+        private void CanSaveReferenceButton(string id, string name, int length, string colour, string description, bool expected)
         {
             UnderTest.ThreadReference = new ThreadReference
             {
@@ -56,15 +56,42 @@ namespace CrossStitch.Tests.ViewModels
         }
 
         [Fact]
-        private void SaveNewReference()
+        private void CanSaveNewThreadReference()
         {
             var reference = ValidThreadReference();
             UnderTest.ThreadReference = reference;
 
             UnderTest.SaveCommand.Execute(null);
 
-            var dbEntity = _threadReferenceRepository.GetAll().Last();
+            var dbEntity = _threadReferenceRepository.GetMostRecent();
             dbEntity.Should().BeEquivalentTo(reference);
+        }
+
+        [Fact]
+        private void CanUpdateExistingThreadReference()
+        {
+            var expected = new
+            {
+                Id = 1,
+                BrandName = "Updated Brand Name",
+                BrandId = "Updated Brand Id",
+                Description = "Updated Description",
+                OwnedLength = 10,
+                Colour = "Red" // Not updating
+            };
+
+            var existingEntity = CommonActions.ThreadReferences.Data[0];
+            UnderTest.Initialise(existingEntity);
+
+            UnderTest.ThreadReference.BrandName = expected.BrandName;
+            UnderTest.ThreadReference.BrandId = expected.BrandId;
+            UnderTest.ThreadReference.Description = expected.Description;
+            UnderTest.ThreadReference.OwnedLength = expected.OwnedLength;
+
+            UnderTest.SaveCommand.Execute(null);
+
+            var dbEntity = _threadReferenceRepository.Get(1);
+            dbEntity.Should().BeEquivalentTo(expected);
         }
     }
 }

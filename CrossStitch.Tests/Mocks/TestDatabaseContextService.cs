@@ -4,7 +4,7 @@ using System;
 
 namespace CrossStitch.Tests.Mocks
 {
-    public class TestContextFactory : IDatabaseContextService
+    public class TestDatabaseContextService : IDatabaseContextService
     {
         public Func<DatabaseContext> GetContext()
         {
