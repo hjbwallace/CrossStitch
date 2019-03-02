@@ -1,4 +1,5 @@
 ﻿using CrossStitch.Core.Data;
+using CrossStitch.Core.Extensions;
 using CrossStitch.Core.Interfaces;
 using CrossStitch.Core.Models;
 using CrossStitch.Core.Validation;
@@ -125,6 +126,13 @@ namespace CrossStitch.Core.ViewModels
             var remove = _initialIds.Intersect(_threadIdsToRemove);
 
             _threadRepository.Remove(remove.Select(id => new ThreadBase { ThreadId = id }).ToArray());
+
+            Model.Threads = Model.Threads.Select(x =>
+            {
+                x.ThreadReference = null;
+                return x;
+            }).AsObservable();
+
             SaveModel(Model);
             PopulateInitialIds();
 
@@ -135,7 +143,7 @@ namespace CrossStitch.Core.ViewModels
 
         private void PopulateInitialIds()
         {
-            _initialIds = Model.Threads.Select(o => o.ThreadId).ToList();
+            _initialIds = Model.Threads.Where(o => o.ThreadId != 0).Select(o => o.ThreadId).ToList();
         }
     }
 }

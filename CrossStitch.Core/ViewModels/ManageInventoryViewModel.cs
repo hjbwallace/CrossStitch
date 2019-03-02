@@ -129,14 +129,11 @@ namespace CrossStitch.Core.ViewModels
 
             SearchResults = _threadReferenceRepository
                 .Query(Criteria)
-                .OrderBy(o => !o.Owned).ThenBy(o => o.Id)
+                .OrderBy(o => !o.Owned)
+                .ThenBy(o => o.BrandName)
+                .ThenBy(o => o.BrandId)
                 .Select(x => new WrappedThreadReference(x))
                 .AsObservable();
-
-            //SearchResults = Criteria
-            //    .ApplyTo(_threadReferences)
-            //    .Select(x => new WrappedThreadReference(x))
-            //    .AsObservable();
         }
 
         private bool RemoveExistingUpdates()

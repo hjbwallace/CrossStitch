@@ -44,6 +44,8 @@ namespace CrossStitch.Core.ViewModels
             _patternProjectRepository = patternProjectRepository;
             _threadRepository = threadRepository;
             _dateTimeProvider = dateTimeProvider;
+
+            PatternSelectionDto = new PatternSelection();
         }
 
         public Pattern[] _currentPatterns { get; set; }
@@ -99,7 +101,7 @@ namespace CrossStitch.Core.ViewModels
                 .ToArray();
 
             var removedPatterns = Project.PatternProjects
-                .Where(ps => !PatternSelectionDto.Patterns.Any(psd => psd.PatternId == ps.Pattern.PatternId))
+                .Where(ps => !PatternSelectionDto.Patterns.Any(psd => ps.Pattern != null && psd.PatternId == ps.Pattern.PatternId))
                 .ToArray();
 
             foreach (var removedPattern in removedPatterns.Where(rp => !rp.IsDefault()))
@@ -173,6 +175,12 @@ namespace CrossStitch.Core.ViewModels
             _patternProjectRepository.Remove(_removedPatternProjects.Values.ToArray());
 
             Project.Create(_dateTimeProvider.Now());
+
+            Project.PatternProjects = Project.PatternProjects.Select(x =>
+            {
+                x.Pattern = null;
+                return x;
+            }).AsObservable();
             _projectRepository.Save(Project);
 
             GoBack();

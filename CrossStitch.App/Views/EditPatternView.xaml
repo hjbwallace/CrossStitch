@@ -14,9 +14,10 @@
     <Grid.RowDefinitions>
       <RowDefinition Height="Auto" />
       <RowDefinition Height="*" />
+      <RowDefinition Height="Auto" />
     </Grid.RowDefinitions>
 
-    <StackPanel>
+    <StackPanel Grid.Row="0">
       <WrapPanel>
         <controls:Input Source="{Binding Model.Name, UpdateSourceTrigger=PropertyChanged}" />
         <controls:Input Source="{Binding Model.Reference, UpdateSourceTrigger=PropertyChanged}" />
@@ -39,47 +40,47 @@
         </StackPanel>
         <Button Content="Add Thread" Command="{Binding AddThreadCommand}" />
       </StackPanel>
-
-      <ListView ItemsSource="{Binding Model.Threads}" Name="ThreadsDisplay" HorizontalContentAlignment="Center">
-        <ListView.View>
-          <GridView AllowsColumnReorder="False">
-            <GridViewColumn Width="40">
-              <GridViewColumn.CellTemplate>
-                <DataTemplate>
-                  <Border Width="20" Height="20" Background="{Binding ThreadReference.Colour, Converter={StaticResource StringToBrushConverter}}" />
-                </DataTemplate>
-              </GridViewColumn.CellTemplate>
-            </GridViewColumn>
-            <GridViewColumn Width="70" Header="Brand" DisplayMemberBinding="{Binding ThreadReference.BrandName}" controls:GridViewSort.PropertyName="BrandName" />
-            <GridViewColumn Width="60" Header="Id" DisplayMemberBinding="{Binding ThreadReference.BrandId}" controls:GridViewSort.PropertyName="BrandId" />
-            <GridViewColumn Width="250" Header="Description" DisplayMemberBinding="{Binding ThreadReference.Description}" controls:GridViewSort.PropertyName="Description" />
-            <GridViewColumn Width="100" Header="Length Required">
-              <GridViewColumn.CellTemplate>
-                <DataTemplate>
-                  <TextBox Width="80" Text="{Binding Length, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
-                </DataTemplate>
-              </GridViewColumn.CellTemplate>
-            </GridViewColumn>
-            <GridViewColumn Width="100" Header="Inventory" controls:GridViewSort.PropertyName="OwnedLength">
-              <GridViewColumn.CellTemplate>
-                <DataTemplate>
-                  <TextBlock Text="{Binding ThreadReference.OwnedLength}" Style="{StaticResource DefaultText}" Foreground="{Binding HasInventory, Converter={StaticResource BooleanToColourConverter}}" FontWeight="Bold" />
-                </DataTemplate>
-              </GridViewColumn.CellTemplate>
-            </GridViewColumn>
-            <GridViewColumn Header="">
-              <GridViewColumn.CellTemplate>
-                <DataTemplate>
-                  <Button Content="X" Command="{Binding ElementName=ThreadsDisplay, Path=DataContext.DeleteThreadCommand}" CommandParameter="{Binding}" Style="{StaticResource Small}" HorizontalAlignment="Center" ToolTip="Remove the thread from the pattern" />
-                </DataTemplate>
-              </GridViewColumn.CellTemplate>
-            </GridViewColumn>
-          </GridView>
-        </ListView.View>
-      </ListView>
     </StackPanel>
 
-    <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right">
+    <ListView ItemsSource="{Binding Model.Threads}" Name="ThreadsDisplay" HorizontalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="False" Grid.Row="1">
+      <ListView.View>
+        <GridView AllowsColumnReorder="False">
+          <GridViewColumn Width="40">
+            <GridViewColumn.CellTemplate>
+              <DataTemplate>
+                <Border Width="20" Height="20" Background="{Binding ThreadReference.Colour, Converter={StaticResource StringToBrushConverter}}" />
+              </DataTemplate>
+            </GridViewColumn.CellTemplate>
+          </GridViewColumn>
+          <GridViewColumn Width="70" Header="Brand" DisplayMemberBinding="{Binding ThreadReference.BrandName}" controls:GridViewSort.PropertyName="BrandName" />
+          <GridViewColumn Width="60" Header="Id" DisplayMemberBinding="{Binding ThreadReference.BrandId}" controls:GridViewSort.PropertyName="BrandId" />
+          <GridViewColumn Width="250" Header="Description" DisplayMemberBinding="{Binding ThreadReference.Description}" controls:GridViewSort.PropertyName="Description" />
+          <GridViewColumn Width="100" Header="Length Required">
+            <GridViewColumn.CellTemplate>
+              <DataTemplate>
+                <TextBox Width="80" Text="{Binding Length, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+              </DataTemplate>
+            </GridViewColumn.CellTemplate>
+          </GridViewColumn>
+          <GridViewColumn Width="100" Header="Inventory" controls:GridViewSort.PropertyName="OwnedLength">
+            <GridViewColumn.CellTemplate>
+              <DataTemplate>
+                <TextBlock Text="{Binding ThreadReference.OwnedLength}" Style="{StaticResource DefaultText}" Foreground="{Binding HasInventory, Converter={StaticResource BooleanToColourConverter}}" FontWeight="Bold" />
+              </DataTemplate>
+            </GridViewColumn.CellTemplate>
+          </GridViewColumn>
+          <GridViewColumn Header="">
+            <GridViewColumn.CellTemplate>
+              <DataTemplate>
+                <Button Content="X" Command="{Binding ElementName=ThreadsDisplay, Path=DataContext.DeleteThreadCommand}" CommandParameter="{Binding}" Style="{StaticResource Small}" HorizontalAlignment="Center" ToolTip="Remove the thread from the pattern" />
+              </DataTemplate>
+            </GridViewColumn.CellTemplate>
+          </GridViewColumn>
+        </GridView>
+      </ListView.View>
+    </ListView>
+
+    <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right">
       <Button Content="Generate Order" Command="{Binding GenerateOrderCommand}" />
       <Button Content="Save" Command="{Binding SaveCommand}" />
       <Button Content="Cancel" Command="{Binding CancelCommand}" />

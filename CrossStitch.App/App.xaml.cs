@@ -18,11 +18,6 @@ namespace CrossStitch.App
 
             AppDomain.CurrentDomain.UnhandledException += OnUnhandledException;
             Dispatcher.UnhandledException += OnDispatcherUnhandledException;
-
-            AppDomain.CurrentDomain.FirstChanceException += (sender, eventArgs) =>
-            {
-                HandleException(eventArgs.Exception);
-            };
         }
 
         private void HandleException(Exception exception)
